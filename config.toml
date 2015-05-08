@@ -1,0 +1,17 @@
+baseurl = "https://9renpoto.github.io/gg"
+languageCode = "ja-JP"
+title = ":-)"
+MetaDataFormat = "yaml"
+
+[indexes]
+  category = "categories"
+
+[permalinks]
+  blog = "blog/:year/:month/:day/:filename/"
+
+[params]
+  Links = ["blog"]
+  GoogleAnalyticsUserID = "UA-39548809-3"
+  TwitterID = "9renpoto"
+  Disqus = "9renpoto"
+  SitestID = "55458af5c7d80"
