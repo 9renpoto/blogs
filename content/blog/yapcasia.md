@@ -116,3 +116,64 @@ var p =Person('bob');
   - Stateless
   - Composable
   - stream
+- babel (2014)
+- Service Workers
+  -  Intercept Requeest
+    - offline / cahce
+    - Background Sync
+    - Push Notification
+- Extensible Web
+- Reactjs
+  - Stateless Component
+- Flux
+- FRP
+  - Rx.js, Bacon.js
+- Redux
+  -  Inspired by Flux and Elm
+
+# どうしてこうなった？ Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
+
+## Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景)
+
+- 2001
+  - C10K Problem
+- 2007
+  - Web 2.0
+- 2009 ~ 2012
+  - JSConf EU
+    - Server-side javascript
+    - Evented Non Blocking I/O
+    - v8
+  - EventLoop Model
+    - libebb => libev/libeio & libuv (windows向け)
+    - netv8 => node
+  - Joyent
+  - 破壊と創造
+    - APIがかなり深刻に変わる
+  - BDFL (優しい終身の独裁者モデル)
+- 2012 ~ 2014
+  - socket.io
+
+## Node/io.jsの機能的な違いと性能的な違い
+
+- 2014 ~
+  - node forward
+  - BDFL => community model
+  - Technical committee
+    - コアメンバ委員会
+  - Collaborator
+  - Working group
+  - Semantic Versioning
+    - major.minor.patch
+  - オープンガバナンスモデル
+  - Feature node.js
+  - io.js のこと
+  - node Foundation
+  - log term suport
+
+## Node/io.jsのロードマップ
+
+- ES6 compat % up
+- StrongScript
+- SimpleSteam
+- improve pref
