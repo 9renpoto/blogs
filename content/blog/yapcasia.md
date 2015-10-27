@@ -1,11 +1,13 @@
 ---
+layout: post
 date: 2015-08-21T09:53:55+09:00
-draft: true
 title: yapcasia
 comments: true
 categories:
   - "perl"
 ---
+
+yapcasia に参加したときのメモを残します
 
 # Effective ES6
 
