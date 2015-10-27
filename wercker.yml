@@ -9,3 +9,6 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GITHUB_TOKEN
         basedir: public
+  after-steps:
+    - wantedly/pretty-slack-notify:
+        webhook_url: $SLACK_WEBHOOK_URL
