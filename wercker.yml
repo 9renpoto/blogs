@@ -1,14 +1,20 @@
 box: wercker/default
 build:
   steps:
+    - script:
+        name: initialize git submodules
+        code: |
+            git submodule update --init --recursive
     - arjen/hugo-build:
         theme: delic
         flags: --buildDrafts=true
 deploy:
   steps:
-    - lukevivier/gh-pages@0.2.1:
-        token: $GITHUB_TOKEN
-        basedir: public
+    - script:
+        name: deploy
+        code: ./deploy.sh
   after-steps:
-    - wantedly/pretty-slack-notify:
-        webhook_url: $SLACK_WEBHOOK_URL
+    - slack-notifier:
+      url: $SLACK_URL
+      channel: $SLACK_CHANNEL
+      username: $SLACK_WERCKER_BOT_NAME
