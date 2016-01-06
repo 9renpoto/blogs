@@ -1,0 +1,3 @@
+[submodule "themes/delic"]
+	path = themes/delic
+	url = git@github.com:9renpoto/delic.git
