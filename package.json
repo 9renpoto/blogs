@@ -1,0 +1,29 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "[![wercker status](https://app.wercker.com/status/023da995752625916c0fb61134dc61c5/m \"wercker status\")](https://app.wercker.com/project/bykey/023da995752625916c0fb61134dc61c5)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-minify-html": "^1.0.5",
+    "oghliner": "^1.0.4",
+    "require-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "oghliner": "^1.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/9renpoto/blogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9renpoto/blogs/issues"
+  },
+  "homepage": "https://github.com/9renpoto/blogs#readme"
+}
