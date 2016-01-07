@@ -22,14 +22,20 @@ build:
     - arjen/hugo-build:
         theme: delic
         flags: --buildDrafts=true
+deploy:
+  steps:
+    - script:
+      name: install NODE_ENV
+      code: |
+        apt-get install curl
+        curl -sL https://deb.nodesource.com/setup_5.x | bash -
+        apt-get install --yes nodejs
     - script:
         code: export NODE_ENV='testing'
     - npm-install
     - script:
         name: offline
         code: $(npm bin)/gulp offline
-deploy:
-  steps:
     - script:
         name: deploy
         code: ./deploy.sh
