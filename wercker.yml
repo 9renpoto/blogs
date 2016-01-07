@@ -22,6 +22,12 @@ build:
     - arjen/hugo-build:
         theme: delic
         flags: --buildDrafts=true
+    - script:
+        code: export NODE_ENV='testing'
+    - npm-install
+    - script:
+        name: offline
+        code: $(npm bin)/gulp offline
 deploy:
   steps:
     - script:
