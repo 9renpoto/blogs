@@ -1,6 +1,3 @@
 [submodule "themes/delic"]
 	path = themes/delic
 	url = git@github.com:9renpoto/delic.git
-[submodule "public"]
-	path = public
-	url = git@github.com:9renpoto/9renpoto.github.io.git
