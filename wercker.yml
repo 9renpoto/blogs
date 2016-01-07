@@ -24,6 +24,11 @@ build:
         flags: --buildDrafts=true
     - script:
         code: export NODE_ENV='testing'
+  after-steps:
+    - slack-notifier:
+      url: $SLACK_URL
+      channel: $SLACK_CHANNEL
+      username: $SLACK_WERCKER_BOT_NAME
 deploy:
   steps:
     - npm-install
