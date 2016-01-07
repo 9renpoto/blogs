@@ -1,6 +1,8 @@
 box: debian
 build:
   steps:
+    - install-packages:
+        packages: openssh-client
     - add-ssh-key:
         keyname: BLOG_KEY
         host: github.com
