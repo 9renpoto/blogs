@@ -9,7 +9,6 @@
     "require-dir": "^0.3.0"
   },
   "devDependencies": {
-    "del": "^2.2.0",
     "gulp": "^3.9.0",
     "oghliner": "^1.0.4"
   },
