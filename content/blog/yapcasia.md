@@ -12,12 +12,12 @@ yapcasia に参加したときのメモを残します
 # Effective ES6
 
 ### denger
-```
+```javascript
 function Persion(name) {
   this.name = name
 }
 
-var p =Person('bob');
+var p = Person('bob');
 # p.name == undefined
 # window.name = 'bob'
 ```
@@ -36,13 +36,15 @@ var p =Person('bob');
 - ES6 feature
   - new syntax
     - arrow function
-    ```
+    ```javascript
     var add => (a,b) => {
         return a + b;
     }
     ```
+
     - class
-    ```
+
+    ```javascript
     class Programmer extends Person {
         constracor(name ,language) {
             super(name);
@@ -50,31 +52,38 @@ var p =Person('bob');
         }
     }
     ```
+
     - module
-    ```
+
+    ```javascript
     export var foo = 'foo';
     import (foo) from './module/path'
     ```
+
     - 'use strict'
       - 書かなくていい
     - block scope
-      ```
-      var a = 'outer'
-      function bar() {
-          console.log(a);
-          a = 'inner';
-      }
-      bar(); # undefined
-      ```
+
+    ```javascript
+    var a = 'outer'
+    function bar() {
+        console.log(a);
+        a = 'inner';
+    }
+    bar(); # undefined
+    ```
+
     - arguments
-      ```
-      function foo(...rest) {
-      }
-      ```
-      ```
-      function draw(x,y,{height:1,width:1} = {}) {
-      }
-      ```
+
+    ```javascript
+    function foo(...rest) {
+    }
+    ```
+    ```javascript
+    function draw(x,y,{height:1,width:1} = {}) {
+    }
+    ```
+
     - template literal
       \` で文字列を囲むと改行付き文字列が定義できる
     - Promise
@@ -83,9 +92,10 @@ var p =Person('bob');
     - codePoint
       - 吉野家 isvalid
   - trap
-    ```
-    if (a => 1) # if ( a >= 1 ) が正
-    ```
+
+  ```javascript
+  if (a => 1) # if ( a >= 1 ) が正
+  ```
   - balel　っていこう
 
 # 今フロントエンドで何が起こっているのか
