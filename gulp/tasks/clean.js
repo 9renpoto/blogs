@@ -1,12 +1,9 @@
-var gulp = require('gulp');
-
-// Cleanup builded files
-gulp.task('clean', function(callback) {
-  var
-    config = require('../config.js'),
-    del = require('del');
+'use strict'
+var gulp = require('gulp')
+gulp.task('clean', function (callback) {
+  var del = require('del')
 
   return del([
     'dist'
-  ], callback);
-});
+  ], callback)
+})
