@@ -2,6 +2,12 @@
 
 lazy build
 
+## Run
+
+```
+hugo server -t delic
+```
+
 ## Auther
 
 [@9renpoto](https://twitter.com/9renpoto)
