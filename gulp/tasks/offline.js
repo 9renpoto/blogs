@@ -3,8 +3,9 @@
 var gulp = require('gulp')
 gulp.task('offline', ['build'], function () {
   var oghliner = require('oghliner')
+  var dist = require('../config.js').dist
   return oghliner.offline({
-    rootDir: 'dist/',
+    rootDir: dist,
     fileGlobs: [
       'assets/**',
       'blog/**',

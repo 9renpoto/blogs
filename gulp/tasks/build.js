@@ -2,7 +2,9 @@
 var gulp = require('gulp')
 gulp.task('build', ['dest'], function () {
   var minifyHTML = require('gulp-minify-html')
-  return gulp.src('dist/**/*.html')
+  var path = require('path')
+  var config = require('../config.js')
+  return gulp.src(path.join(config.dist, '/**/*.html'))
     .pipe(minifyHTML({ empty: true }))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest(config.dist))
 })
