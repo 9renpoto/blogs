@@ -8,6 +8,11 @@ lazy build
 hugo server -t delic
 ```
 
+## Feature
+
+- RSS
+- push on deploy( at wercker)
+
 ## Auther
 
 [@9renpoto](https://twitter.com/9renpoto)
