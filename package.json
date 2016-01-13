@@ -4,9 +4,6 @@
   "description": "9renpoto blogs",
   "private": true,
   "main": "gulpfile.js",
-  "dependencies": {
-    "oghliner": "^1.0.4"
-  },
   "devDependencies": {
     "gulp-minify-html": "^1.0.5",
     "gulp": "^3.9.0",
