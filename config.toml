@@ -11,7 +11,6 @@ MetaDataFormat = "yaml"
 
 [params]
   Links = ["blog"]
-  GoogleAnalyticsUserID = "UA-39548809-3"
   TwitterID = "9renpoto"
   Disqus = "9renpoto"
   GoogleTagManagerID = "GTM-TD87SR"
