@@ -1,20 +1,9 @@
 {
-  "name": "blogs",
-  "version": "1.0.0",
-  "description": "9renpoto blogs",
   "private": true,
-  "main": "gulpfile.js",
   "devDependencies": {
     "gulp-minify-html": "^1.0.5",
     "gulp": "^3.9.0",
     "oghliner": "^1.0.4",
     "require-dir": "^0.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/9renpoto/blogs.git"
-  },
-  "author": "9renpoto",
-  "license": "MIT",
-  "homepage": "https://github.com/9renpoto/blogs#readme"
+  }
 }
