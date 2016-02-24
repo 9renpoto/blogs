@@ -11,7 +11,7 @@ categories:
 
 ### Go言語で作るWebアプリ @tenntenn
 
-HTTPサーバ簡単に書ける!
+HTTPサーバ簡単に書ける
 
 * <https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&loop=false&delayms=3000#slide=id.gb8818ff4_2_0>
 
@@ -21,26 +21,26 @@ HTTPサーバ簡単に書ける!
 
 * Go言語のメリット
     * 簡単
-    * Nativeで速い，少メモリ
-    * モダン（並列，型推論，Stractual subtyping(部分型)
+    * Nativeで速い、少メモリ
+    * モダン（並列、型推論、Stractual subtyping(部分型)
 * AppEngineのメリット
     * 保守しなくてよいので開発に集中できる
-    * 大規模，伸縮
-    * モダン(TQ，memcachedサポート)
+    * 大規模、伸縮
+    * モダン(TQ、memcachedサポート)
 * Testing
     * AppEngine上でGo言語だけでテストを行うことは難しい
     * testbed <https://github.com/najeira/testbed>
 * Goの優位性
     * 起動が速い(AppEngineとの相性は良い)
 * 速度についての補足
-    * 常にGoが速いというわけではない(IO, etc)
+    * 常にGoが速いというわけではない(I/O、etc)
 * まだ完全以降にコストかけて頑張るほどのノウハウはたまってない
 
 ---
 
 ### Gorutine and channel @Jxck_
 
-* メモよりも下記資料の方が分かりやすいので下記資料参考!
+* メモよりも下記資料の方が分かりやすいので下記資料参考
     * <http://jxck.node-ninja.com/slides/gocon-2013spring.html#slide-0>
 ---
 
@@ -48,7 +48,7 @@ HTTPサーバ簡単に書ける!
 
 * <https://gist.github.com/methane/5377227#file-goscheduler-md>
     * Goroutine
-        * 奥が深い...
+        * 奥が深い
 ---
 
 ### Goのどのあたりが良いか 鵜飼さん
@@ -57,8 +57,8 @@ HTTPサーバ簡単に書ける!
     * 慣れた言語から見ると違和感がある
 * 設計方針
     * many on the decisions in Go are motivated by experience working on and maintaing large code bases at Google.
-    * 書きやすさより読みやすさ，修正しやすさ
-    * シンプルな仕様，簡潔な文法
+    * 書きやすさより読みやすさ、修正しやすさ
+    * シンプルな仕様、簡潔な文法
     * 細部まできちんと考えたコードを書くようになる
 * 型宣言
     * 逆
@@ -86,6 +86,6 @@ HTTPサーバ簡単に書ける!
     * 音
         * portaudio-go / go-openal / pulsego
     * 入力
-        * 入力はSDL系は標準でできる．
+        * 入力はSDL系は標準でできる
         * OpenGL系ではGo-GLUT / glfw など使える
 * <https://github.com/moriyoshi/gohex>

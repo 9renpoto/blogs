@@ -9,12 +9,12 @@ categories:
 
 ### TL;DR
 
-- blogを `octpress` から `hugo` へ移行しました
+- ブログを `octpress` から `hugo` へ移行しました
 - [hugo theme](https://github.com/9renpoto/delic) 書きました
 
 #### theme を書くために
 
-cmd一つでテンプレート作成
+cmd1つでテンプレート作成
 
     $ hugo new theme foo
     .
@@ -52,7 +52,7 @@ cmd一つでテンプレート作成
 
 #### 感想
 
-octpress の時はtheme流用してたので手作りも勉強になりました.
+octpressの時はtheme流用してたので手作りも勉強になりました
 
-t32k さんの[mol](https://github.com/t32k/mol) を参考(ほぼコピペして)に作りました.
+t32kさんの[mol](https://github.com/t32k/mol)を参考(ほぼコピー&ペーストして)に作りました
 ありがとうございます

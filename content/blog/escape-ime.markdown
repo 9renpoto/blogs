@@ -13,7 +13,7 @@ vimなど使ってるとEscapeしてIMEが残ってるとイライライラ
 
 <img class="u-max-full-width" src="http://i.gyazo.com/64daf9848e558c14efc0df858aef8388.png" >
 
-これで`Esc`で快適に抜けられる!最高
+これで`Esc`で快適に抜けられる最高
 
 <img class="u-max-full-width" src="http://i.gyazo.com/2708f90efe1cebb5d4f5aad5195b1ce8.gif" >
 
