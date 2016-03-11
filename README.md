@@ -1,5 +1,4 @@
-# blogs [![wercker status](https://app.wercker.com/status/5bdbbd0c6f345f4ee881f49fe619e1e3/s/master "wercker status")](https://app.wercker.com/project/bykey/5bdbbd0c6f345f4ee881f49fe619e1e3)
-
+# blogs [![Circle CI](https://circleci.com/gh/9renpoto/blogs/tree/master.svg?style=svg&circle-token=424262aaeba9cfbb119a1aef7b9b2634a2d9d3c3)](https://circleci.com/gh/9renpoto/blogs/tree/master)
 lazy build
 
 ## Run
