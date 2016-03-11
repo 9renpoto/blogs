@@ -27,7 +27,7 @@ categories:
 * Link Walking
 * Consistent Hassing and Replicas / Vecteor Clocks
 
-分散システム，ざっくり
+分散システム、ざっくり
 
 * Graph
 * SQL
@@ -36,11 +36,11 @@ categories:
 
 #### RICONについて
 
-* 分散システム，分散DBのカンファレンス
+* 分散システム、分散DBのカンファレンス
 
 #### 事例
 
-* Redis側でロックして，裏側はRiakで構築
+* Redis側でロックして、裏側はRiakで構築
     * 壊れても大丈夫なようにするのが鉄板のパターン
 
 #### 面白かった話
@@ -67,6 +67,4 @@ categories:
 
 * Riakはバックエンドでたてないとダメ
 * Riak Searchを使って全文検索可能
-* 今後，Yokozunaに移行予定
-
-
+* 今後、Yokozunaに移行予定

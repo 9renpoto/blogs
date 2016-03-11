@@ -7,8 +7,8 @@ categories:
   - "python"
 ---
 
-Python Developer Festa 参加してきたので，そのメモ
-<https://github.com/pyspa/pyfes/blob/develop/201211.rst>
+Python Developer Festa 参加してきたので、そのメモ
+<https://githubcom/pyspa/pyfes/blob/develop/201211rst>
 
 ## Cloudera Impala について
 @shiumachi さんより
@@ -18,19 +18,19 @@ Python Developer Festa 参加してきたので，そのメモ
 + Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤
     + google Dremel, Google F1 などにインスパイアされて開発された
 + データサイエンティストが使うことを想定している
-+ Hadoopはクエリの内容がメモリに乗っからなかった場合，HDDに逃げちゃう
++ Hadoopはクエリの内容がメモリに乗っからなかった場合、HDDに逃げちゃう
 + Impalaはオンメモリ上で頑張ろうとする
 
 #### Impala support 状況
 
-##### 0.2 時点
-+ Trevni, RCFileのサポートは現状まだ，今後対応予定
-+ Hiveで出来ることは，基本的にImpalaでは出来ないと思ってよい
+##### 02 時点
++ Trevni, RCFileのサポートは現状まだ、今後対応予定
++ Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい
 
 ### なぜ開発されたのか
 
-Hadoop(Map Reduce)だと高レイテンシで，すぐに結果が欲しくても処理に時間がかかる
-Hiveのように手軽に使えるSQLのインターフェースをもち，かつ低レイテンシエンジンが欲しかった
+Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる
+Hiveのように手軽に使えるSQLのインターフェースをもち、かつ低レイテンシエンジンが欲しかった
 
 ### MapReduceとは
 
@@ -44,21 +44,21 @@ Hiveのように手軽に使えるSQLのインターフェースをもち，か�
 
 ### よくある質問
 
-#### Q.もうHiveいらないんじゃない?
+#### QもうHiveいらないんじゃない？
 
 + 定期的に実行を行うクエリなどはHiveのほうが適しているのではないか
 
-#### Q.impalaが落ちたらどうするの?
+#### Qimpalaが落ちたらどうするの？
 
 + クエリが全部こけます
-+ JOINのサイズ制限あるの?
++ JOINのサイズ制限あるの？
     + あります
 
 ---------
 ## Python in Webkit
 @omo2009 さんより
 
-<http://steps.dodgson.org/>の中の人
+<http://stepsdodgsonorg/>の中の人
 
 ### Third party Tools
 
@@ -75,7 +75,7 @@ Hiveのように手軽に使えるSQLのインターフェースをもち，か�
     webkit-patch land
     # Reverting specific version
     webkit-patch rollout
-    # ...
+    #
 
 プロジェクト特有の問題を解決するために使っている
 
@@ -130,15 +130,15 @@ IRC でレビューを頼むと断られにくい
 
 + ジェネレートとコールーチン
     + yieldキーワードの追加
-+ foreachで変数分解だ!
++ foreachで変数分解だ！
 + empty()の括弧内に変数以外が指定可能に
 + finally
     + try-catch-finally
-        + なぜ今までになかったのか..
+        + なぜ今までになかったのか
     + fatal error が発生するとfinalyが呼ばれない
 
 --------------
 
-Pythonでお仕事している人が日本にもたくさんいて嬉しいです!
+Pythonでお仕事している人が日本にもたくさんいて嬉しいです！
 
-発表者のみなさまおつかれさまでした!
+発表者のみなさまおつかれさまでした！

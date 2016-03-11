@@ -7,11 +7,11 @@ categories:
   - "python"
 ---
 
-Pyconに参加しようと思ったんですが，python素人のボクはまず環境構築から！
+Pyconに参加しようと思ったんですが、python素人のボクはまず環境構築から！
 
 ### pythonのversion管理
 
-pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので，言われるがままに環境作ってみます
+pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので、言われるがままに環境作ってみます
 
 #### pythonbrewの環境構築
 

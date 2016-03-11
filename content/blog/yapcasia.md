@@ -25,7 +25,7 @@ var p = Person('bob');
 - class
   - constractor
   - new ナシで呼ぶと Error
-- IE11 ES6 は実装しない!
+- IE11 ES6 は実装しない
 - transpiler
   - ES6 to ES5
 - polyfill
