@@ -7,18 +7,18 @@ categories:
   - "uml"
 ---
 
-これから設計をはじめます，という時に
-今までは小さな機能であれば，スキーマの設計から始めてしまっていたのですが，
-久々に「クラス図を書いてみよう」という話になり，
-どう書こう...となったのでメモ
+これから設計をはじめます、という時に
+今までは小さな機能であれば、スキーマの設計から始めてしまっていたのですが
+久々に「クラス図を書いてみよう」という話になり
+どう書こう となったのでメモ
 
 # PlantUML
 
 <img class="u-max-full-width" src="http://plantuml.sourceforge.net/logoc.png">
 
-CUIで書けるのが最高です．
+CUIで書けるのが最高です
 
-依存関係をテキストベースのみで記述できるので非常に助かりました．
+依存関係をテキストベースのみで記述できるので非常に助かりました
 
 図の綺麗さなどを意識せず関係を記述することに集中できるのが魅力
 
@@ -29,10 +29,10 @@ java -jar "plantuml.jarのパス" [option] 入力ファイル [...]
 </code>
 </pre>
 
-で入力ファイルを目的のUMLを生成します．
+で入力ファイルを目的のUMLを生成します
 
-Graphvizが必要なのでインストールしておきます．
-macはbrewだけで入りました．
+Graphvizが必要なのでインストールしておきます
+macはbrewだけで入りました
 
 <pre>
 <code class"bash">
@@ -40,8 +40,7 @@ brew install graphviz
 </code>
 </pre>
 
-これだけで使えます．
-
+これだけで使えます
 
 <pre>
 <code>
@@ -80,25 +79,23 @@ brew install graphviz
 ----
 # GUI関連
 
-
-Officeなどを使って作っても良いと思うのですが，
+Officeなどを使って作っても良いと思うのですが、
 専用のツールもメモ
 
 ## astah*
 
 <img class="u-max-full-width" src="http://astah-cdn2.change-vision.com/ja/images/stories/logo/astah_community_rectangle_m.png.pagespeed.ce.C-174ew438.png">
 
-Officeツール以外で関連ツールを探すと上位に出てくる良いツールであると思います．
+Officeツール以外で関連ツールを探すと上位に出てくる良いツールであると思います
 
 http://astah.change-vision.com/ja/product/astah-community.html
 
 ## Cacoo
 
-今までなかなか縁がなく利用していなかったCacooですが，
+今までなかなか縁がなく利用していなかったCacooですが、
 
 [100万ユーザ突破した](http://blog.cacoo.com/ja/2013/11/06/cacoo-user-1m/)という記事を確認して
 
-そういえば使ってなかったなと思い，軽く使ってみました．
+そういえば使ってなかったなと思い、軽く使ってみました
 
-ChromeAppなどで使えますし，お気軽さではダントツだと思います．
-
+ChromeAppなどで使えますし、お気軽さではダントツだと思います

@@ -13,13 +13,13 @@ categories:
 
 #### Hugo を利用して gh-pagesにデプロイ
 
-公式ドキュメントで wercker-ciを利用したデプロイ方法が[紹介](https://gohugo.io/tutorials/automated-deployments/)されており，そちらを利用していましたが，
+公式ドキュメントで wercker-ciを利用したデプロイ方法が[紹介](https://gohugo.io/tutorials/automated-deployments/)されており、そちらを利用していましたが
 
 ```
 http://9renpoto.github.io/<project_name>
 ```
 
-という名前になってしまい，個人ページとして構築を目的とした場合不満があったため環境を見直し。
+という名前になってしまい、個人ページとして構築を目的とした場合不満があったため環境を見直し。
 
 - [pages.github.com/](https://pages.github.com/)
 - [qiita.com/eichann/items/4fe61b8b9bbafcfbe847](http://qiita.com/eichann/items/4fe61b8b9bbafcfbe847#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%922%E3%81%A4%E4%BD%9C%E6%88%90)
@@ -30,11 +30,11 @@ http://9renpoto.github.io/<project_name>
 <username>.github.io
 ```
 
-リポジトリを作成し，`master` ブランチにpushされることによって公開される(not gh-pages branch)ようなので，`public/` に生成されたものを `<username>.github.io` にdestするように修正しました。
+リポジトリを作成し `master` ブランチにpushされることによって公開される(not gh-pages branch)ようなので `public/` に生成されたものを `<username>.github.io` にdestするように修正しました。
 
 #### オフライン対応
 
-[mozilla/oghliner](https://github.com/mozilla/oghliner)がserviceWorkerを利用したオフライン化を簡単に提供していたので，試しに使ってみる。
+[mozilla/oghliner](https://github.com/mozilla/oghliner)がserviceWorkerを利用したオフライン化を簡単に提供していたので試しに使ってみる。
 
 #### Feature
 

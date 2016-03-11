@@ -7,7 +7,7 @@ categories:
   - "hadoop"
 ---
 
-Hadoop Conference Japan 2014に参加してきました．
+Hadoop Conference Japan 2014に参加してきました
 個人的な所感としては
 
 - spark楽しそう（だけどまだ触るには勇気が）
@@ -27,7 +27,7 @@ Hadoop Conference Japan 2014に参加してきました．
   - YARN
     - MapReduceからそれ以外のアルゴリズムも
     - 複数の並列分散エンジンを併用できる環境
-    - メモリの大容量化，10Gbpsネットワークの普及
+    - メモリの大容量化、10Gbpsネットワークの普及
       - インメモリ処理の実現性の向上
 
 ### The Future of Data
@@ -35,7 +35,7 @@ Hadoop Conference Japan 2014に参加してきました．
 Doug Cutting
 
 - 未来について
-   - ハードウェアの価格の低下,性能の向上
+   - ハードウェアの価格の低下、性能の向上
    - データの重要性の向上
    - オープンソースが勝ち残る
 
@@ -44,11 +44,11 @@ Doug Cutting
 Patric Wendlell
 
 - Sparkの目的
-  - データサイエンティスト，エンジニア能力の拡張
+  - データサイエンティスト、エンジニア能力の拡張
   - 表現力のあるクリーンなAPIの提供
   - 多様な環境にわたって統合されたランタイム
 - API　stability
-  - 3ヶ月サイクルでマイナーリリース
+  - 3か月サイクルでマイナーリリース
   - 必要におおじてメンテナンスリリース
 - Spark SQL
 - MLlib
@@ -73,7 +73,7 @@ Patric Wendlell
         - Impala, SlarkSQL, Presto Drill
         - Mahout, Spark MLlib
     - 今までの時代
-      - データを入れるだけ入れたけど，レポート化できる人の限られている
+      - データを入れるだけ入れたけど、レポート化できる人の限られている
       - 今までは何でも入れられるだけ
       - これからはだれでも取り出せるようにしないと意味がない
     - Hadoop -> MPP
@@ -82,13 +82,13 @@ Patric Wendlell
     - 非構造化データの領域に踏み込む
     - 混沌の時代
 
-## Session
+## セッション
 
 ### マルチテナント化に向けたHadoopの最新セキュリティ事情
 
 - Hadoopのユースケースの移り変わり
   - バッチ処理を効率よく行うため
-    - 部門単位での利用，クラスタの乱立
+    - 部門単位での利用、クラスタの乱立
   - 近年
    - バッチ処理 + インタラクティブな処理
    - SQLによるアクセス
@@ -110,17 +110,17 @@ Patric Wendlell
     - HDFS ACL
       - ファイルシステムレベルでのaccess control
     - Apache Sentry
-      - データベース，テーブル，view，行列の粒度でアクセス制御
+      - データベース、テーブルview、行列の粒度でアクセス制御
 - 認可モジュールSentryの紹介
   - Apache Sentryはモジュールとして開発されている
 
 ### BigQuery and the world after MapReduce
 
 - BigData at Google
-  - ログ分析するのにMapReduceを書いてる場合じゃない!
+  - ログ分析するのにMapReduceを書いてる場合じゃない
   - BigQuery ( sql base )
     - indexなんてないんや
-  - 全文検索，120億行, 10秒ぐらい
+  - 全文検索、120億行、10秒ぐらい
   - storage 料金
   - Quesy料金
 - Column Oriented Storage
@@ -138,8 +138,8 @@ Patric Wendlell
 - BigQuery Streaming
   - fluentd!
   - fluent-plugin-bigquery
-- BigQuery User-Defined-Function-with-javascript
-  - クエリ内にjavascript書く!
+- BigQuery User-Defined-Function-with-JavaScript
+  - クエリ内にJavaScript書く
 - Cloud Pub/Sub
 - FlumeJava
   - [論文あるよ!](http://pages.cs.wisc.edu/~akella/CS838/F12/838-CloudPapers/FlumeJava.pdf)
@@ -192,7 +192,7 @@ Patric Wendlell
     - 起動してないと過去ログが追えなくなる
   - NOTE!
     - Use the Hadoop 2.4.0 and later !!!!
-      - Capacity Scheduler，there is a bug!
+      - Capacity Scheduler、there is a bug!
       - deadlock!!!!
     - hadoop-conf-pseudo doees not work
     - 2.2.0 and 2.4.0
@@ -201,7 +201,7 @@ Patric Wendlell
 ### Presto
 
 - what is Presto
-  - facebookで作られてoss化
+  - Facebookで作られてoss化
   -  HDFS上のデータを可視化したい
     - うまくいかない
     - hiveが遅すぎる
@@ -224,5 +224,5 @@ Patric Wendlell
   - 全部並行で動いてる
     - 一個死んだら全部死ぬ
     - メモリ溢れてしまうとクエリが死んでしまう
-  - メモリの使用量はクラスタで管理されてて，クラスタが死ぬことはない（はず）
+  - メモリの使用量はクラスタで管理されてて、クラスタが死ぬことはない（はず）
     - がクエリは死ぬ
