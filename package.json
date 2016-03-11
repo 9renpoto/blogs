@@ -11,7 +11,8 @@
     "textlint-rule-no-mix-dearu-desumasu": "^1.4.0"
   },
   "scripts": {
-    "test": "npm run lint",
-    "lint": "textlint content"
+    "build": "hugo -t delic && gulp offline",
+    "lint": "textlint content",
+    "test": "npm run lint"
   }
 }
