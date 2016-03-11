@@ -18,5 +18,5 @@ git push origin master
 
 cd ..
 
-git commit -m '[ci skip] publish'
+git commit -am '[ci skip] publish'
 git push origin master
