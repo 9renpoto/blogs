@@ -23,7 +23,7 @@ Hadoop Conference Japan 2014に参加してきました
 - 始めて普及した並列分散処理
   - データの読み込みのスループットを最大化
     - 全件データの処理を実現
-  - シンプルなモデル(MapReduce)
+  - シンプルなモデル（MapReduce)
   - YARN
     - MapReduceからそれ以外のアルゴリズムも
     - 複数の並列分散エンジンを併用できる環境
@@ -93,7 +93,7 @@ Patric Wendlell
    - バッチ処理 + インタラクティブな処理
    - SQLによるアクセス
   - データは一部の人だけのものではない
-    - クラスタの共有(マルチテナント)
+    - クラスタの共有（マルチテナント）
   - マルチテナントのメリット
     - データの複製不要
     - 業務の取り巻き
@@ -121,7 +121,7 @@ Patric Wendlell
   - BigQuery ( sql base )
     - indexなんてないんや
   - 全文検索、120億行、10秒ぐらい
-  - storage 料金
+  - storage料金
   - Quesy料金
 - Column Oriented Storage
   - もはやスタンダード

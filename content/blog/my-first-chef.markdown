@@ -34,7 +34,7 @@ bundle install
 </code>
 </pre>
 
-chef-solo を使えるように初期設定を行う
+chef-soloを使えるように初期設定を行う
 
 <pre>
 <code class="bash">
@@ -94,7 +94,7 @@ $ bundle exec berks install --path cookbooks
 </code>
 </pre>
 
-vagrant 側でchefが使えるように以下のコマンドを実行
+vagrant側でchefが使えるように以下のコマンドを実行
 
 <pre>
 <code class="bash">

@@ -7,7 +7,7 @@ categories:
   - "perl"
 ---
 
-yapcasia に参加したときのメモを残します
+yapcasiaに参加したときのメモを残します
 
 # Effective ES6
 
@@ -24,8 +24,8 @@ var p = Person('bob');
 
 - class
   - constractor
-  - new ナシで呼ぶと Error
-- IE11 ES6 は実装しない
+  - newナシで呼ぶとError
+- IE11 ES6は実装しない
 - transpiler
   - ES6 to ES5
 - polyfill
@@ -87,10 +87,10 @@ var p = Person('bob');
     - template literal
       \` で文字列を囲むと改行付き文字列が定義できる
     - Promise
-      - callback 地獄回避
+      - callback地獄回避
     - map/set
     - codePoint
-      - 吉野家 isvalid
+      - 吉野家isvalid
   - trap
 
   ```javascript
@@ -143,9 +143,9 @@ var p = Person('bob');
 - Redux
   -  Inspired by Flux and Elm
 
-# どうしてこうなった？ Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
+# どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
 
-## Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景)
+## Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）
 
 - 2001
   - C10K Problem
@@ -157,12 +157,12 @@ var p = Person('bob');
     - Evented Non Blocking I/O
     - v8
   - EventLoop Model
-    - libebb => libev/libeio & libuv (windows向け)
+    - libebb => libev/libeio & libuv (windows向け）
     - netv8 => node
   - Joyent
   - 破壊と創造
     - APIがかなり深刻に変わる
-  - BDFL (優しい終身の独裁者モデル)
+  - BDFL (優しい終身の独裁者モデル）
 - 2012 ~ 2014
   - socket.io
 
@@ -179,7 +179,7 @@ var p = Person('bob');
     - major.minor.patch
   - オープンガバナンスモデル
   - Feature node.js
-  - io.js のこと
+  - io.jsのこと
   - node Foundation
   - log term suport
 
