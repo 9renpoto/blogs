@@ -7,23 +7,23 @@ categories:
   - "python"
 ---
 
-Python Developer Festa 参加してきたので、そのメモ
+Python Developer Festa参加してきたので、そのメモ
 <https://githubcom/pyspa/pyfes/blob/develop/201211rst>
 
-## Cloudera Impala について
-@shiumachi さんより
+## Cloudera Impalaについて
+@shiumachiさんより
 
-### Impala とは
+### Impalaとは
 
 + Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤
-    + google Dremel, Google F1 などにインスパイアされて開発された
+    + google Dremel, Google F1などにインスパイアされて開発された
 + データサイエンティストが使うことを想定している
 + Hadoopはクエリの内容がメモリに乗っからなかった場合、HDDに逃げちゃう
 + Impalaはオンメモリ上で頑張ろうとする
 
-#### Impala support 状況
+#### Impala support状況
 
-##### 02 時点
+##### 02時点
 + Trevni, RCFileのサポートは現状まだ、今後対応予定
 + Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい
 
@@ -56,7 +56,7 @@ Hiveのように手軽に使えるSQLのインターフェースをもち、か�
 
 ---------
 ## Python in Webkit
-@omo2009 さんより
+@omo2009さんより
 
 <http://stepsdodgsonorg/>の中の人
 
@@ -66,7 +66,7 @@ Hiveのように手軽に使えるSQLのインターフェースをもち、か�
     + Buildbot
     + Trac
 
-### 今回は webkit-patch について
+### 今回はwebkit-patchについて
 
     # Submitting for review
     webkit-patch post
@@ -89,27 +89,27 @@ Hiveのように手軽に使えるSQLのインターフェースをもち、か�
 + 誰にレビューしてもらったか忘れちゃう
 + 探すのに便利
 
-IRC でレビューを頼むと断られにくい
+IRCでレビューを頼むと断られにくい
 
 ----------
 
-## Connpass について
+## Connpassについて
 
 @lanMLewis, @ae35
 概要と技術について
 
-### connpass とは
-+ BePROUD で運営しているイベント支援サイト
+### connpassとは
++ BePROUDで運営しているイベント支援サイト
     + 2010/08 django dash
-        + django を使って48時間でサービスを作ろう
-        + 既存のイベント支援サービス(ATND)使いにくいよね
+        + djangoを使って48時間でサービスを作ろう
+        + 既存のイベント支援サービス（ATND)使いにくいよね
         + 作ってみよう
     + 大事だと思ってること
         + 実生活のつながり
         + 共有・成長する
         + イベントから広がるコミュニティ
 
-### connpass で使われている技術
+### connpassで使われている技術
 + サーバーサイド
     + MySQL
     + Redis
@@ -126,7 +126,7 @@ IRC でレビューを頼むと断られにくい
 
 ## PHP Language Update
 
-### PHP 5.5 の目玉
+### PHP 5.5の目玉
 
 + ジェネレートとコールーチン
     + yieldキーワードの追加
@@ -135,7 +135,7 @@ IRC でレビューを頼むと断られにくい
 + finally
     + try-catch-finally
         + なぜ今までになかったのか
-    + fatal error が発生するとfinalyが呼ばれない
+    + fatal errorが発生するとfinalyが呼ばれない
 
 --------------
 

@@ -22,18 +22,18 @@ HTTPサーバ簡単に書ける
 * Go言語のメリット
     * 簡単
     * Nativeで速い、少メモリ
-    * モダン（並列、型推論、Stractual subtyping(部分型)
+    * モダン（並列、型推論、Stractual subtyping(部分型）
 * AppEngineのメリット
     * 保守しなくてよいので開発に集中できる
     * 大規模、伸縮
-    * モダン(TQ、memcachedサポート)
+    * モダン（TQ、memcachedサポート）
 * Testing
     * AppEngine上でGo言語だけでテストを行うことは難しい
     * testbed <https://github.com/najeira/testbed>
 * Goの優位性
-    * 起動が速い(AppEngineとの相性は良い)
+    * 起動が速い（AppEngineとの相性は良い）
 * 速度についての補足
-    * 常にGoが速いというわけではない(I/O、etc)
+    * 常にGoが速いというわけではない（I/O、etc)
 * まだ完全以降にコストかけて頑張るほどのノウハウはたまってない
 
 ---
@@ -51,7 +51,7 @@ HTTPサーバ簡単に書ける
         * 奥が深い
 ---
 
-### Goのどのあたりが良いか 鵜飼さん
+### Goのどのあたりが良いか鵜飼さん
 
 * Goの第一印象
     * 慣れた言語から見ると違和感がある
@@ -81,11 +81,11 @@ HTTPサーバ簡単に書ける
 
 * Goでゲームを作るためのライブラリ紹介
     * 画面出力
-        * SDL系: go-sdl / gosdl
-        * OpenGL系: gl / GoGL
+        * SDL系： go-sdl / gosdl
+        * OpenGL系： gl / GoGL
     * 音
         * portaudio-go / go-openal / pulsego
     * 入力
         * 入力はSDL系は標準でできる
-        * OpenGL系ではGo-GLUT / glfw など使える
+        * OpenGL系ではGo-GLUT / glfwなど使える
 * <https://github.com/moriyoshi/gohex>

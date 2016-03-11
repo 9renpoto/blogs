@@ -32,7 +32,7 @@ zshの場合でも以下の内容を書くらしい
 
 
 pythonbrew list -k # インストールできるversion確認
-pythonbrew update # pythonbrew の update
+pythonbrew update # pythonbrewのupdate
 </code>
 </pre>
 

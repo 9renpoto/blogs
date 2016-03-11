@@ -37,18 +37,18 @@ RTBの技術的課題
 
 * スループットを向上させるために
     * hashからpartitionを特定する
-    * 素のままでは50mc or die 的に厳しいため
+    * 素のままでは50mc or die的に厳しいため
     * 構成の工夫が必要
     * スケーラビリティの問題を克服できるメリットは大きい
     * 「サーバを足すだけで運用」
 
-### Yokozuna 日本語検索機能を評価しました
+### Yokozuna日本語検索機能を評価しました
 
 @rev4t @yosisa
 
-日本語検索: Yokozuna
+日本語検索： Yokozuna
 
 Solr XMLスキーマを利用した検索が可能
 便利そう
 
-<iframe src='http://www.slideshare.net/slideshow/embed_code/24120855' width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/takashisogabe/riak-meetup2-iijbeta2" title="Yokozuna 日本語検索機能を評価しました" target="_blank">Yokozuna 日本語検索機能を評価しました</a> </strong> from <strong><a href="http://www.slideshare.net/takashisogabe" target="_blank">Takashi Sogabe</a></strong> </div>
+<iframe src='http://www.slideshare.net/slideshow/embed_code/24120855' width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/takashisogabe/riak-meetup2-iijbeta2" title="Yokozuna 日本語検索機能を評価しました" target="_blank">Yokozuna日本語検索機能を評価しました</a> </strong> from <strong><a href="http://www.slideshare.net/takashisogabe" target="_blank">Takashi Sogabe</a></strong> </div>
