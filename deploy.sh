@@ -6,7 +6,7 @@ cd 9renpoto.github.io
 
 git add -A
 
-msg="rebuilding site `date`"
+msg="[ci skip] rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
@@ -15,3 +15,6 @@ git commit -m "$msg"
 git push origin master
 
 cd ..
+
+git commit -m '[ci skip] publish'
+git push origin master
