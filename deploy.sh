@@ -14,7 +14,7 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-git push origin master
+git push origin master -f
 
 cd ..
 
