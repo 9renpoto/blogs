@@ -10,7 +10,6 @@ hugo server -t delic
 ## Feature
 
 - RSS
-- push on deploy( at circleci)
 
 ## Auther
 
