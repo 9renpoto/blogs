@@ -3,14 +3,14 @@ lazy build
 
 ## Run
 
-```
+```sh
 hugo server -t delic
 ```
 
 ## Feature
 
 - RSS
-- push on deploy( at wercker)
+- push on deploy( at circleci)
 
 ## Auther
 

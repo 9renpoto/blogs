@@ -6,7 +6,7 @@ checkout:
 machine:
   timezone: Asia/Tokyo
   node:
-    version: 5.1.0
+    version: 5.4.0
   python:
     version: 2.7
 
