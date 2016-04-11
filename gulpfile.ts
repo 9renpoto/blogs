@@ -1,4 +1,4 @@
 /// <reference path="./typings/main.d.ts" />
 
-import * as dir from 'require-dir'
+let dir: any = require('require-dir');
 dir('./gulp/tasks', { 'recurse': true })
