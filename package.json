@@ -13,7 +13,7 @@
     "typings": "^0.7.12"
   },
   "scripts": {
-    "build": "hugo -t delic && gulp offline",
+    "build": "hugo -t delic && gulp build",
     "lint": "textlint content",
     "postinstall": "typings install",
     "test": "npm run lint"
