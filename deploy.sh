@@ -6,6 +6,7 @@ npm run build || exit 1
 
 cd 9renpoto.github.io
 
+git checkout master
 git add -A
 
 msg="[ci skip] rebuilding site `date`"
@@ -14,9 +15,4 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-git push origin master -f
-
-cd ..
-
-git commit -am '[ci skip] publish'
 git push origin master
