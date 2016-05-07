@@ -6,11 +6,11 @@ checkout:
 machine:
   timezone: Asia/Tokyo
   node:
-    version: 5.5.0
+    version: 5.7.0
 
 dependencies:
   pre:
-    - go get -v github.com/spf13/hugo
+    - go get -u -v github.com/spf13/hugo
     - git config --global user.name "CircleCI"
     - git config --global user.email "9renpoto@gmail.com"
 
