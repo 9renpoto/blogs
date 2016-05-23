@@ -4,6 +4,7 @@
     "max-ten": {
       "max": 3
     },
-    "no-mix-dearu-desumasu": true
+    "no-mix-dearu-desumasu": true,
+    "write-good": true
   }
 }

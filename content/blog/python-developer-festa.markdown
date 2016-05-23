@@ -132,10 +132,10 @@ IRCでレビューを頼むと断られにくい
     + yieldキーワードの追加
 + foreachで変数分解だ！
 + empty()の括弧内に変数以外が指定可能に
-+ finally
-    + try-catch-finally
++ `finally`
+    + `try-catch-finally`
         + なぜ今までになかったのか
-    + fatal errorが発生するとfinalyが呼ばれない
+    + fatal errorが発生すると `finaly` が呼ばれない
 
 --------------
 
