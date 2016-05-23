@@ -4,13 +4,14 @@
     "gulp": "^3.9.1",
     "gulp-minify-html": "^1.0.6",
     "require-dir": "^0.3.0",
-    "textlint": "^6.6.0",
+    "textlint": "^6.8.0",
     "textlint-rule-max-ten": "^2.0.1",
-    "textlint-rule-no-mix-dearu-desumasu": "^2.2.1",
+    "textlint-rule-no-mix-dearu-desumasu": "^3.0.0",
     "textlint-rule-preset-jtf-style": "^2.2.0",
-    "tslint": "^3.9.0",
+    "textlint-rule-write-good": "^0.1.4",
+    "tslint": "^3.10.2",
     "typescript-require": "^0.2.9-1",
-    "typings": "^0.8.1"
+    "typings": "^1.0.4"
   },
   "scripts": {
     "build": "hugo -t delic && gulp build",
