@@ -218,7 +218,7 @@ Patric Wendlell
   - 複数のデータ・セットをまとめて表示できる
 - BI tools
   - 可視化に利用していく
-  - ODBC/JDBC is very complicated!
+  - `ODBC/JDBC is very complicated!`
 - Prestoの実行モデルについて
   - not MapReduce
   - 全部並行で動いてる
