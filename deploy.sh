@@ -15,4 +15,4 @@ git init
 git remote add origin git@github.com:9renpoto/9renpoto.github.io.git
 git add -A
 git commit -am "$msg"
-git push origin master
+git push origin master -f
