@@ -4,6 +4,6 @@ import path = require('path')
 let root: any = path.join(__dirname, '../')
 
 module.exports = {
-  dist: path.join(root, '9renpoto.github.io'),
+  dist: path.join(root, 'dist'),
   root: root
 }
