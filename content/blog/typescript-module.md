@@ -1,6 +1,5 @@
 ---
 date: 2016-06-23T11:25:56+09:00
-draft: true
 title: typescript module
 ---
 
@@ -27,3 +26,5 @@ https://github.com/9renpoto/javascript/pull/19
 - 複数 module
 - mocha によるテスト
 - power-assertによるテスト
+
+`espower-typescript` が通らないので中身を見て調べる
