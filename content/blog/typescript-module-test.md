@@ -9,8 +9,8 @@ categories:
 
 TypeScript の勉強を頑張ろう
 
-https://github.com/9renpoto/javascript/pull/19
-https://github.com/9renpoto/javascript/tree/fbb4448064f42461936bb02b792e9a6ec4f8c189
+- https://github.com/9renpoto/javascript/pull/19
+- https://github.com/9renpoto/javascript/tree/fbb4448064f42461936bb02b792e9a6ec4f8c189
 
 ```json
 {
