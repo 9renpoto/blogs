@@ -18,10 +18,10 @@ cd username.github.com
 git init
 
 touch README.md
-git add README.md
+Git add README.md
 git commit -m 'first commit'
 
-git remote add origin git@github.com:username/username.github.com.git
+Git remote add origin git@GitHub.com:username/username.github.com.git
 git push -u origin master
 </code>
 </pre>
@@ -38,13 +38,13 @@ cd octopress
 gem install bundler
 
 bundle install
-rake setup_github_pages
+Rake setup_github_pages
 
-rake generate
+Rake generate
 rake deploy
 
 # 2つ一度にする
-# rake gen_deploy
+# Rake gen_deploy
 
 </code>
 </pre>
@@ -62,7 +62,7 @@ rake new_post\["my-new-page"\]
 </code>
 </pre>
 
-markdownの勉強にもなるし、githubとも仲良くなれるし、なかなかに良い仕組みだと思います
+markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかなかに良い仕組みだと思います
 
 いろいろ勉強します
 

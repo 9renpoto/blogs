@@ -7,11 +7,13 @@ categories:
   - "perl"
 ---
 
+# yapc asia memo
+
 yapcasiaに参加したときのメモを残します
 
-# Effective ES6
+## Effective ES6
 
-## denger
+### denger
 
 ```javascript
 function Persion(name) {
@@ -99,14 +101,14 @@ var p = Person('bob');
   ```
   - balel　っていこう
 
-# 今フロントエンドで何が起こっているのか
+## 今フロントエンドで何が起こっているのか
 
 - htmlだけ返せばよかったような時代
 - ajaxの登場
   - google map etc
   - ECMAscript5
 - coffeescript
-- jquery(from 2006)
+- jQuery(from 2006)
 - backbonejs
 - nodejs(2009)
 - grunt(2012)
@@ -119,12 +121,12 @@ var p = Person('bob');
   - 問題
     - SEO
     - Performance
-- angularjs(2009)
+- AngularJS(2009)
   - 2way data binding
   - fullstack
 - gulp
   - stream base
-- browserify
+- Browserify
 - ECMAscript 2015
   - Stateless
   - Composable
@@ -144,9 +146,9 @@ var p = Person('bob');
 - Redux
   - Inspired by Flux and Elm
 
-# どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
+## どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
 
-## Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）
+### Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）
 
 - 2001
   - C10K Problem
@@ -154,39 +156,39 @@ var p = Person('bob');
   - Web 2.0
 - 2009 ~ 2012
   - JSConf EU
-    - Server-side javascript
+    - Server-side JavaScript
     - Evented Non Blocking I/O
     - v8
   - EventLoop Model
-    - libebb => libev/libeio & libuv (windows向け）
+    - libebb => libev/libeio & libuv (Windows向け）
     - netv8 => node
   - Joyent
   - 破壊と創造
     - APIがかなり深刻に変わる
   - BDFL (優しい終身の独裁者モデル）
 - 2012 ~ 2014
-  - socket.io
+  - Socket.IO
 
-## Node/io.jsの機能的な違いと性能的な違い
+### Node/io.jsの機能的な違いと性能的な違い
 
 - 2014 ~
   - node forward
   - BDFL => community model
   - Technical committee
-    - コアメンバ委員会
+    - コアメンバー委員会
   - Collaborator
   - Working group
   - Semantic Versioning
     - major.minor.patch
   - オープンガバナンスモデル
-  - Feature node.js
+  - Feature Node.js
   - io.jsのこと
   - node Foundation
   - log term suport
 
-## Node/io.jsのロードマップ
+### Node/io.jsのロードマップ
 
-- ES6 compat % up
+- ES6 compat ％ up
 - StrongScript
 - SimpleSteam
 - improve pref
