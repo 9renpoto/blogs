@@ -6,16 +6,16 @@ categories:
   - 'github'  
 ---
 
-### TL;DR
+# TL;DR
 
 - Hugoを利用して `<username>.github.io` に公開
 - [mozilla/oghliner](https://github.com/mozilla/oghliner)を利用してオフライン対応
 
-#### Hugoを利用してgh-pagesにデプロイ
+## Hugoを利用してgh-pagesにデプロイ
 
 公式ドキュメントでwercker-ciを利用したデプロイ方法が[紹介](https://gohugo.io/tutorials/automated-deployments/)されており、そちらを利用していましたが
 
-```
+```sh
 http://9renpoto.github.io/<project_name>
 ```
 
@@ -26,16 +26,18 @@ http://9renpoto.github.io/<project_name>
 
 を参考に問題を解決するために手を動かし始めました。
 
-```
+```sh
 <username>.github.io
 ```
 
-リポジトリを作成し `master` ブランチにpushされることによって公開される（not gh-pages branch)ようなので `public/` に生成されたものを `<username>.github.io` にdestするように修正しました。
+リポジトリを作成し `master` ブランチにpushされることによって公開される（not gh-pages branch)ようなので
 
-#### オフライン対応
+`public/` に生成されたものを `<username>.github.io` にdestするように修正しました。
+
+## オフライン対応
 
 [mozilla/oghliner](https://github.com/mozilla/oghliner)がserviceWorkerを利用したオフライン化を簡単に提供していたので試しに使ってみる。
 
-#### Feature
+## Feature
 
 ビルド・デプロイタスクを直す

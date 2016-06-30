@@ -11,7 +11,8 @@ yapcasiaに参加したときのメモを残します
 
 # Effective ES6
 
-### denger
+## denger
+
 ```javascript
 function Persion(name) {
   this.name = name
@@ -130,7 +131,7 @@ var p = Person('bob');
   - stream
 - babel (2014)
 - Service Workers
-  -  Intercept Requeest
+  - Intercept Requeest
     - offline / cahce
     - Background Sync
     - Push Notification
@@ -141,7 +142,7 @@ var p = Person('bob');
 - FRP
   - Rx.js, Bacon.js
 - Redux
-  -  Inspired by Flux and Elm
+  - Inspired by Flux and Elm
 
 # どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
 

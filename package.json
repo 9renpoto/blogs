@@ -1,22 +1,29 @@
 {
   "private": true,
   "devDependencies": {
+    "@uncovertruth/textlint-config-ja": "0.0.2",
+    "@uncovertruth/tslint-config": "0.0.1",
     "gulp": "^3.9.1",
     "gulp-minify-html": "^1.0.6",
+    "markdownlint-cli": "^0.1.0",
     "require-dir": "^0.3.0",
-    "textlint": "^6.11.1",
+    "textlint": "^7.0.1",
     "textlint-rule-max-ten": "^2.0.1",
     "textlint-rule-no-mix-dearu-desumasu": "^3.0.2",
     "textlint-rule-preset-jtf-style": "^2.2.0",
     "textlint-rule-write-good": "^1.5.0",
-    "tslint": "^3.11.0",
+    "tslint": "^3.12.1",
     "typescript-require": "^0.2.9-1",
-    "typings": "^1.3.0"
+    "typings": "^1.3.1"
   },
   "scripts": {
     "build": "hugo -t delic && gulp build",
-    "lint": "textlint content",
+    "lint:md": "markdownlint content",
+    "lint:text": "textlint -c @uncovertruth/textlint-config-ja content",
+    "lint:ts": "tslint gulpfile.ts gulp/**/*.ts",
+    "lint": "npm run lint:ts && npm run lint:md && npm run lint:text",
     "postinstall": "typings install",
+    "start": "hugo server -t delic",
     "test": "npm run lint"
   }
 }
