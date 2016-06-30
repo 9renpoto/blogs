@@ -7,7 +7,8 @@ categories:
   - "hadoop"
 ---
 
-Hadoop Conference Japan 2014に参加してきました
+# Hadoop Conference Japan 2014に参加してきました
+
 個人的な所感としては
 
 - spark楽しそう（だけどまだ触るには勇気が）
@@ -35,9 +36,9 @@ Hadoop Conference Japan 2014に参加してきました
 Doug Cutting
 
 - 未来について
-   - ハードウェアの価格の低下、性能の向上
-   - データの重要性の向上
-   - オープンソースが勝ち残る
+  - ハードウェアの価格の低下、性能の向上
+  - データの重要性の向上
+  - オープンソースが勝ち残る
 
 ### The Future of spark
 
@@ -90,8 +91,8 @@ Patric Wendlell
   - バッチ処理を効率よく行うため
     - 部門単位での利用、クラスタの乱立
   - 近年
-   - バッチ処理 + インタラクティブな処理
-   - SQLによるアクセス
+    - バッチ処理 + インタラクティブな処理
+    - SQLによるアクセス
   - データは一部の人だけのものではない
     - クラスタの共有（マルチテナント）
   - マルチテナントのメリット
@@ -103,7 +104,7 @@ Patric Wendlell
     - Role管理
 - マルチテナントとセキュリティの関連性
   - 認証
-    -  kerberos
+    - kerberos
       - 相手が何者であるかを保証するプロトコル
       - 暗号化
   - 認可
@@ -202,7 +203,7 @@ Patric Wendlell
 
 - what is Presto
   - Facebookで作られてoss化
-  -  HDFS上のデータを可視化したい
+  - HDFS上のデータを可視化したい
     - うまくいかない
     - hiveが遅すぎる
   - hiveをバッチ化 => 中間DBに入れる
