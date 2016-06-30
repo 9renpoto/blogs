@@ -7,17 +7,19 @@ categories:
   - "vim"
 ---
 
-vimなど使ってるとEscapeしてIMEが残ってるとイライライラ
+# vimなど使ってるとEscapeしてIMEが残ってるとイライライラ
+
 [ESCで確実にIMEをオフにする](http://nobeans.hatenablog.com/entry/20090211/1234326782)を参考に設定を反映してみるも直ってないご様子
+
 どうもGoogleIMEには神設定があるらしい
 
-<img class="u-max-full-width" src="http://i.gyazo.com/64daf9848e558c14efc0df858aef8388.png" >
+![image-googe-input](http://i.gyazo.com/64daf9848e558c14efc0df858aef8388.png)
 
-これで`Esc`で快適に抜けられる最高
+これで `Esc` を使って快適に抜けられる最高
 
-<img class="u-max-full-width" src="http://i.gyazo.com/2708f90efe1cebb5d4f5aad5195b1ce8.gif" >
+![image](http://i.gyazo.com/2708f90efe1cebb5d4f5aad5195b1ce8.gif)
 
-### 参考
+## 参考
 
-- [Vimでコマンドモードに戻るときにIMEをオフにする](http://hotolab.net/blog/vim_ime)
+- [Vimでコマンドモードに戻るときIMEをオフにする](http://hotolab.net/blog/vim_ime)
 - [ESCで確実にIMEをオフにする](http://nobeans.hatenablog.com/entry/20090211/1234326782)

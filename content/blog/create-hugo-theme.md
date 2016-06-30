@@ -7,50 +7,50 @@ categories:
   - "hugo"
 ---
 
-### TL;DR
+# TL;DR
 
 - ブログを `octpress` から `hugo` へ移行しました
 - [hugo theme](https://github.com/9renpoto/delic) 書きました
 
-#### themeを書くために
+## themeを書くために
 
 cmd1つでテンプレート作成
 
-    $ hugo new theme foo
-    .
-    └── themes
-        └── foo
-        ├── LICENSE.md
-        ├── archetypes
-        │   └── default.md
-        ├── layouts
-        │   ├── _default
-        │   │   ├── list.html
-        │   │   └── single.html
-        │   ├── index.html
-        │   └── partials
-        │       ├── footer.html
-        │       └── header.html
-        ├── static
-        │   ├── css
-        │   └── js
-        └── theme.toml
+```sh
+$ hugo new theme foo
+.
+└── themes
+    └── foo
+    ├── LICENSE.md
+    ├── archetypes
+    │   └── default.md
+    ├── layouts
+    │   ├── _default
+    │   │   ├── list.html
+    │   │   └── single.html
+    │   ├── index.html
+    │   └── partials
+    │       ├── footer.html
+    │       └── header.html
+    ├── static
+    │   ├── css
+    │   └── js
+    └── theme.toml
+```
 
 [Document](http://gohugo.io/templates/overview/) がよくまとまっていますので参考に
-
 
 - このあたりが特にお世話になりました
   - [functions](http://gohugo.io/templates/functions/)
   - [variables](http://gohugo.io/templates/variables/)
 
+## TODO
 
-#### TODO
-  - `layouts/_default` 以外の使い方調べる
-  - rss作成
-  - bower installするbuild script
+- `layouts/_default` 以外の使い方調べる
+- rss作成
+- bower installするbuild script
 
-
-#### 感想
+## 感想
 
 octpressの時はtheme流用してたので手作りも勉強になりました
 

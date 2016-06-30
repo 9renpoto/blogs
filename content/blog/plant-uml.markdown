@@ -7,12 +7,12 @@ categories:
   - "uml"
 ---
 
+# PlantUML
+
 これから設計をはじめます、という時に
 今までは小さな機能では、スキーマの設計から始めてしまっていたのですが
 久々に「クラス図を書いてみよう」という話になり
 どう書こうとなったのでメモ
-
-# PlantUML
 
 ![image](http://plantuml.sourceforge.net/logoc.png)
 
@@ -67,24 +67,22 @@ brew install graphviz
 便利
 
 ## 参考
-- http://d.hatena.ne.jp/a_bicky/20121016/1350347857
-- http://yohshiy.blog.fc2.com/blog-entry-152.html
 
-----
-# GUI関連
+- [d.hatena.ne.jp/a_bicky/20121016/1350347857](http://d.hatena.ne.jp/a_bicky/20121016/1350347857)
+- [http://yohshiy.blog.fc2.com/blog-entry-152.html](http://yohshiy.blog.fc2.com/blog-entry-152.html)
 
-Officeなどを使って作っても良いと思うのですが、
+## GUI関連
+
+Officeなどを使って作っても良いのですが、
 専用のツールもメモ
 
-## astah*
+### astah*
 
 ![astah](http://astah-cdn2.change-vision.com/ja/images/stories/logo/astah_community_rectangle_m.png.pagespeed.ce.C-174ew438.png)
 
-Officeツール以外で関連ツールを探すと上位に出てくる良いツールだとと思います
+Officeツール以外で関連ツールを探すと上位に出てくる[良いツール](http://astah.change-vision.com/ja/product/astah-community.html)です
 
-http://astah.change-vision.com/ja/product/astah-community.html
-
-## Cacoo
+### Cacoo
 
 今までなかなか縁がなく利用していなかったCacooですが、
 
@@ -92,4 +90,4 @@ http://astah.change-vision.com/ja/product/astah-community.html
 
 そういえば使ってなかったなと思い、軽く使ってみました
 
-ChromeAppなどで使えますし、お気軽さではダントツだと思います
+ChromeAppなどで使えますし、お気軽さではダントツ

@@ -7,16 +7,18 @@ categories:
   - "python"
 ---
 
-Python Developer Festa参加してきたので、そのメモ
-<https://githubcom/pyspa/pyfes/blob/develop/201211rst>
+# Python Developer Festa参加してきたので、そのメモ
+
+[link](https://github.com/pyspa/pyfes/blob/develop/201211rst)
 
 ## Cloudera Impalaについて
+
 @shiumachiさんより
 
 ### Impalaとは
 
 + Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤
-    + google Dremel, Google F1などにインスパイアされて開発された
+  + google Dremel, Google F1などにインスパイアされて開発された
 + データサイエンティストが使うことを想定している
 + Hadoopはクエリの内容がメモリに乗っからなかった場合、HDDに逃げちゃう
 + Impalaはオンメモリ上で頑張ろうとする
@@ -24,23 +26,24 @@ Python Developer Festa参加してきたので、そのメモ
 #### Impala support状況
 
 ##### 02時点
+
 + Trevni, RCFileのサポートは現状まだ、今後対応予定
 + Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい
 
 ### なぜ開発されたのか
 
 Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる
-Hiveのように手軽に使えるSQLのインターフェースをもち、かつ低レイテンシエンジンが欲しかった
+Hiveのようで手軽に使えるSQLのインターフェースをもち、かつ低レイテンシエンジンが欲しかった
 
 ### MapReduceとは
 
 + Apache MapReduceとは
-    + バッチ処理を分散して行うシステム
+  + バッチ処理を分散して行うシステム
 + Apache Hive
-    + SQLライクに書ける
+  + SQLライクに書ける
 + MapReduceの問題
-    + レイテンシが高い
-    + 小さいキューを出しても数十秒時間かかる
+  + レイテンシが高い
+  + 小さいキューを出しても数十秒時間かかる
 
 ### よくある質問
 
@@ -52,10 +55,10 @@ Hiveのように手軽に使えるSQLのインターフェースをもち、か�
 
 + クエリが全部こけます
 + JOINのサイズ制限あるの？
-    + あります
+  + あります
 
----------
 ## Python in Webkit
+
 @omo2009さんより
 
 <http://stepsdodgsonorg/>の中の人
@@ -63,8 +66,8 @@ Hiveのように手軽に使えるSQLのインターフェースをもち、か�
 ### Third party Tools
 
 + webKit
-    + Buildbot
-    + Trac
+  + Buildbot
+  + Trac
 
 ### 今回はwebkit-patchについて
 
@@ -91,53 +94,49 @@ Hiveのように手軽に使えるSQLのインターフェースをもち、か�
 
 IRCでレビューを頼むと断られにくい
 
-----------
-
 ## Connpassについて
 
 @lanMLewis, @ae35
 概要と技術について
 
 ### connpassとは
+
 + BePROUDで運営しているイベント支援サイト
-    + 2010/08 django dash
-        + djangoを使って48時間でサービスを作ろう
-        + 既存のイベント支援サービス（ATND)使いにくいよね
-        + 作ってみよう
-    + 大事だと思ってること
-        + 実生活のつながり
-        + 共有・成長する
-        + イベントから広がるコミュニティ
+  + 2010/08 django dash
+    + djangoを使って48時間でサービスを作ろう
+    + 既存のイベント支援サービス（ATND)使いにくいよね
+    + 作ってみよう
+  + 大事だと思ってること
+    + 実生活のつながり
+    + 共有・成長する
+    + イベントから広がるコミュニティ
 
 ### connpassで使われている技術
-+ サーバーサイド
-    + MySQL
-    + Redis
-    + Django
-    + Unix
-    + Nginx
-    + Gunicorn
-+ クライアントサイド
-    + CoffeeScript
-    + REQUIRE JS
-    + *Javascript 怖い*
 
------------
++ サーバーサイド
+  + MySQL
+  + Redis
+  + Django
+  + Unix
+  + Nginx
+  + Gunicorn
++ クライアントサイド
+  + CoffeeScript
+  + REQUIRE JS
+  + JavaScript 怖い
 
 ## PHP Language Update
 
 ### PHP 5.5の目玉
 
 + ジェネレートとコールーチン
-    + yieldキーワードの追加
+  + yieldキーワードの追加
 + foreachで変数分解だ！
 + empty()の括弧内に変数以外が指定可能に
 + `finally`
-    + `try-catch-finally`
-        + なぜ今までになかったのか
-    + fatal errorが発生すると `finaly` が呼ばれない
-
---------------
+  + `try-catch-finally`
+    + なぜ今までになかったのか
+  + fatal errorが発生すると `finaly` が呼ばれない
 
 Pythonでお仕事している人が日本にもたくさんいて嬉しいです！
 

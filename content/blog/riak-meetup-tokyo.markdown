@@ -7,14 +7,14 @@ categories:
   - "erlang"
 ---
 
-### Riak intro & RICON報告
+# Riak intro & RICON報告
 
 @kuenishi
 
 分散システムの研究や開発は5年ぐらい
 日本法人が9月に出来た
 
-#### Riakの紹介
+## Riakの紹介
 
 * Dynamoにインスパイアされた
 * Consistent Hassingによる水平分割する
@@ -34,16 +34,16 @@ categories:
 * Document
 * Scale out
 
-#### RICONについて
+## RICONについて
 
 * 分散システム、分散DBのカンファレンス
 
-#### 事例
+### 事例
 
 * Redis側でロックして、裏側はRiakで構築
-    * 壊れても大丈夫なようにするのが鉄板のパターン
+  * 壊れても大丈夫なようにするのが鉄板のパターン
 
-#### 面白かった話
+## 面白かった話
 
 * Rak Pipe
 * Introduction Yokozuna
@@ -51,19 +51,19 @@ categories:
 * Cloning the Cloud
 * Bringing Consistency on Riak
 
-### Riak with Engine yard
+## Riak with Engine yard
 
 * EC2上のGentoo
 * すべてはChefで構築
 * その上にアプリをデプロイ
 * 再起動も1から構築
 * ssh / sudo可能
-* 何台でも何度でも再現可能
+* 何台、何度でも再現可能
 
 * DB
-    * PostgressSQL
-    * MySQL
-    * Riak
+  * PostgressSQL
+  * MySQL
+  * Riak
 
 * Riakはバックエンドでたてないとダメ
 * Riak Searchを使って全文検索可能

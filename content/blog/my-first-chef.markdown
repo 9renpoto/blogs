@@ -8,46 +8,41 @@ categories:
  - "chef"
 ---
 
+# chef memo
+
 環境構築といえば、chefだという噂を随分と聞くようになってきましたが、
 なんだかんだと使ってなかったのでメモ。
-とはいえ、**レシピは誰かが書いてるであろう**と思いますので、
+とはいえ、レシピは誰かが書いてるので、
 今回は出来る限りレシピを使う方法で構築を目指す
 
 ## 前準備
 
-<pre>
-<code class="ruby">
+```ruby
 # Gemfileに記載
 source 'https://rubygems。org'  # URLの指定。呪文だと思って毎回書く
 
 gem 'berkshelf'
 gem 'chef'
 gem 'knife-solo'
-</code>
-</pre>
+```
 
 必要なgemをいつものように
 
-<pre>
-<code class="bash">
+```sh
 bundle install
-</code>
-</pre>
+```
 
 chef-soloを使えるように初期設定を行う
 
-<pre>
-<code class="bash">
-$ bundle exec knife configure
-</code>
-</pre>
+```sh
+bundle exec knife configure
+```
 
 ## そろそろchef
 
 ひな形の生成
 
-<pre>
-<code class="bash">
+```bash
 $ bundle exec knife solo init chef-repo
 $ tree chef-repo/
 chef-repo/
@@ -57,24 +52,20 @@ chef-repo/
 ├── roles
 ├── site-cookbooks
 └── solo。rb
-</code>
-</pre>
+```
 
 忘れないうちにコミット
 
-<pre>
-<code class="bash">
-$ cd chef-repo
-$ git init
-$ git add 。
-$ git commit -m 'first commit'
-</code>
-</pre>
+```sh
+cd chef-repo
+git init
+git add 。
+git commit -m 'first commit'
+```
 
 公式なり、Githubにて公開されているレシピを利用しやすくるものとして **Berksfile** があります
 
-<pre>
-<code class="bash">
+```ruby
 site :opscode # Berksfile
 
 cookbook "apt"
@@ -82,30 +73,25 @@ cookbook "git"
 cookbook "zsh"
 cookbook 'vim'
 cookbook 'the_silver_searcher'
-</code>
-</pre>
+```
 
 公開されているレシピの情報を記述しておけば、コマンド1つで落としてこれます。
 便利
 
-<pre>
-<code class="bash">
-$ bundle exec berks install --path cookbooks
-</code>
-</pre>
+```sh
+bundle exec berks install --path cookbooks
+```
 
 vagrant側でchefが使えるように以下のコマンドを実行
 
-<pre>
-<code class="bash">
-$ bundle exec knife solo prepare nodename
-</code>
-</pre>
+```sh
+bundle exec knife solo prepare nodename
+```
 
 インストールしたいレシピを追加
-node/nodename。json
-<pre>
-<code class="javascript">
+node/nodename.json
+
+```js
 {
   "run_list": [
     "recipe[apt]",
@@ -115,21 +101,18 @@ node/nodename。json
     "recipe[the_silver_searcher]"
   ]
 }
-</code>
-</pre>
+```
 
 レシピはできたのでcookしましょう
 
-<pre>
-<code class="javascript">
-$ bundle exec knife solo cook nodename
-</code>
-</pre>
+```sh
+bundle exec knife solo cook nodename
+```
 
 ## 参考
 
-- http://tsuchikazu。net/chef_solo_start/
-- http://qiita。com/uchiunyo/items/5aa243f7a39ae443e10d
+- [tsuchikazu.net/chef_solo_start](http://tsuchikazu.net/chef_solo_start/)
+- [qiita.com/uchiunyo/item](http://qiita.com/uchiunyo/items/5aa243f7a39ae443e10d)
 
 ## 最後に
 
