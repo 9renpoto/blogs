@@ -180,7 +180,7 @@ var p = Person('bob');
   - Working group
   - Semantic Versioning
     - major.minor.patch
-  - オープンガバナンスモデル
+  - オープンガバナーンスモデル
   - Feature Node.js
   - io.jsのこと
   - node Foundation

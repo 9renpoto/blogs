@@ -20,8 +20,8 @@ categories:
 + Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤
   + google Dremel, Google F1などにインスパイアされて開発された
 + データサイエンティストが使うことを想定している
-+ Hadoopはクエリの内容がメモリに乗っからなかった場合、HDDに逃げちゃう
-+ Impalaはオンメモリ上で頑張ろうとする
++ Hadoopはクエリの内容がメモリーに乗っからなかった場合、HDDに逃げちゃう
++ Impalaはオンメモリー上で頑張ろうとする
 
 #### Impala support状況
 
@@ -65,11 +65,11 @@ Hiveのようで手軽に使えるSQLのインターフェースをもち、か�
 
 ### Third party Tools
 
-+ webKit
++ WebKit
   + Buildbot
   + Trac
 
-### 今回はwebkit-patchについて
+### 今回は `webkit-patch` について
 
     # Submitting for review
     webkit-patch post
