@@ -13,7 +13,7 @@ categories:
 
 ## Go言語で作るWebアプリ @tenntenn
 
-HTTPサーバ簡単に書ける
+HTTPサーバー簡単に書ける
 
 * <https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&loop=false&delayms=3000#slide=id.gb8818ff4_2_0>
 
@@ -52,7 +52,7 @@ HTTPサーバ簡単に書ける
 * Goの第一印象
   * 慣れた言語から見ると違和感がある
 * 設計方針
-  ```
+  ```markdown
   many on the decisions in Go are motivated by experience working on
   and maintaing large code bases at Google.
   ```
@@ -62,7 +62,7 @@ HTTPサーバ簡単に書ける
 * 型宣言
   * 逆
   * これは複雑な変数定義を行った際に分かりやすい
-* コメント書くぐらいならコンパイラにチェックさせろよ
+* コメント書くぐらいならコンパイラーにチェックさせろよ
 * クラス
   * 型定義
   * 型に対してメソッドを追加する
@@ -77,7 +77,7 @@ HTTPサーバ簡単に書ける
 
 ## 無題 @moriyoshi
 
-* Goでゲームを作るためのライブラリ紹介
+* Goでゲームを作るためのライブラリー紹介
   * 画面出力
     * SDL系： go-sdl / gosdl
     * OpenGL系： gl / GoGL

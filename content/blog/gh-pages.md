@@ -30,7 +30,7 @@ http://9renpoto.github.io/<project_name>
 <username>.github.io
 ```
 
-リポジトリを作成し `master` ブランチにpushされることによって公開される（not gh-pages branch)ようなので
+リポジトリーを作成し `master` ブランチにpushされることによって公開される（not gh-pages branch)ようなので
 
 `public/` に生成されたものを `<username>.github.io` にdestするように修正しました。
 
