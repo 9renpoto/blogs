@@ -1,5 +1,5 @@
 {
-  "name": "@9renpoto/docs",
+  "name": "@9renpoto/note",
   "private": true,
   "devDependencies": {
     "@uncovertruth/textlint-config-ja": "^0.0.11",
