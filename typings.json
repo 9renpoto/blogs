@@ -4,8 +4,8 @@
   "globalDevDependencies": {
     "gulp": "registry:dt/gulp#3.8.0+20160316155526",
     "gulp-minify-html": "registry:dt/gulp-minify-html#1.0.2+20160316155526",
-    "node": "registry:dt/node#4.0.0+20160330064709",
+    "node": "registry:dt/node#6.0.0+20160709114037",
     "orchestrator": "registry:dt/orchestrator#0.0.0+20160316155526",
-    "q": "registry:dt/q#0.0.0+20160323171452"
+    "q": "registry:dt/q#0.0.0+20160613154756"
   }
 }
