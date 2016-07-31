@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2015-05-11T22:54:56+09:00
-draft: false
 title: create hugo theme
 categories:
   - "hugo"
