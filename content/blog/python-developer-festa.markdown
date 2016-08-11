@@ -2,14 +2,11 @@
 layout: post
 title: "Python Developer Festa 参加してきました"
 date: 2012-11-24
-comments: true
 categories:
   - "python"
 ---
 
 # Python Developer Festa参加してきたので、そのメモ
-
-[link](https://github.com/pyspa/pyfes/blob/develop/201211rst)
 
 ## Cloudera Impalaについて
 
@@ -60,8 +57,6 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
 ## Python in Webkit
 
 @omo2009さんより
-
-<http://stepsdodgsonorg/>の中の人
 
 ### Third party Tools
 
