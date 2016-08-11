@@ -10,7 +10,7 @@ MetaDataFormat = "yaml"
   blog = "blog/:year/:month/:day/:filename/"
 
 [params]
-  Links = ["blog"]
+  Links = ["blog", "profile", "slides"]
   Disqus = "9renpoto"
   GithubID = "9renpoto"
   MainTitle = ":-)"
