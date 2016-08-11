@@ -38,8 +38,7 @@ HTTPサーバー簡単に書ける
 
 ## Gorutine and channel @Jxck_
 
-* メモよりも下記資料の方が分かりやすいので下記資料参考
-  * <http://jxck.node-ninja.com/slides/gocon-2013spring.html#slide-0>
+* メモ漏れ
 
 ## Go Schaduler @methane
 

@@ -2,7 +2,6 @@
 layout: post
 title: "EscでIMEを抜ける"
 date: 2014-07-11
-comments: true
 categories:
   - "vim"
 ---
@@ -21,5 +20,5 @@ categories:
 
 ## 参考
 
-- [Vimでコマンドモードに戻るときIMEをオフにする](http://hotolab.net/blog/vim_ime)
+- Vimでコマンドモードに戻るときIMEをオフにする `hotolab.net/blog/vim_ime`
 - [ESCで確実にIMEをオフにする](http://nobeans.hatenablog.com/entry/20090211/1234326782)
