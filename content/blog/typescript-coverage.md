@@ -1,6 +1,5 @@
 ---
 date: 2016-08-20T14:28:25+09:00
-draft: true
 title: TypeScript で coverage を計測する
 categories:
   - "typescript"
@@ -15,6 +14,7 @@ categories:
 
 ## Usage
 
+- `npm install remap-istanbul`
 - `sourcemap: true`
 
 ## Memo
