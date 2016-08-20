@@ -9,8 +9,5 @@
   "buildOnSave": false,
   "exclude": [
     "node_modules"
-  ],
-  "filesGlobs": [
-    "./typings/index.d.ts"
   ]
 }
