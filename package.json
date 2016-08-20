@@ -7,7 +7,6 @@
     "lint:ja": "textlint content",
     "lint:ts": "tslint gulpfile.ts gulp/**/*.ts",
     "lint": "npm-run-all -p lint:*",
-    "postinstall": "typings install",
     "start": "hugo server -t delic",
     "test": "npm run lint"
   },
