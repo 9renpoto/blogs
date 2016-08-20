@@ -6,7 +6,6 @@ checkout:
 machine:
   timezone: Asia/Tokyo
   node:
-    version: 5.7.0
 
 dependencies:
   pre:
