@@ -6,7 +6,7 @@ lazy build
 
 [![Throughput Graph](https://graphs.waffle.io/9renpoto/note/throughput.svg)](https://waffle.io/9renpoto/note/metrics/throughput)
 
-## Run
+## Usage
 
 ```sh
 hugo server -t delic
