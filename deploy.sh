@@ -2,6 +2,8 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+npm run clean || exit 1
+
 mkdir dist && cd dist
 git init
 git remote add origin git@github.com:9renpoto/9renpoto.github.io.git
