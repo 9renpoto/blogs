@@ -23,7 +23,6 @@
     "npm-run-all": "^3.0.0",
     "require-dir": "^0.3.0",
     "rimraf": "^2.5.4",
-    "textlint": "^7.0.2",
     "textlint": "^7.1.0",
     "textlint-rule-incremental-headers": "^0.2.0",
     "textlint-rule-ja-no-weak-phrase": "^1.0.2",
