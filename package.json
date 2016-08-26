@@ -5,7 +5,7 @@
     "build": "hugo -t delic && gulp build",
     "lint:ja": "textlint content",
     "lint:md": "markdownlint content",
-    "lint:ts": "tslint gulpfile.ts gulp/**/*.ts",
+    "lint:ts": "tslint gulpfile.ts \"gulp/**/*.ts\"",
     "lint": "npm-run-all -p lint:*",
     "clean": "rimraf public dist",
     "start": "hugo server -t delic",
