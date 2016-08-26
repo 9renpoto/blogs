@@ -1,8 +1,9 @@
 import * as gulp from 'gulp'
 import * as path from 'path'
 
+import { global, dist } from '../config'
+
 gulp.task('dest', () => {
-  const config: any = require('../config')
-  return gulp.src(path.join(config.global, 'public/**'))
-    .pipe(gulp.dest(config.dist))
+  return gulp.src(path.join(global, 'public/**'))
+    .pipe(gulp.dest(dist))
 })
