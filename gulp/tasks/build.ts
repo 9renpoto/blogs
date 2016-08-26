@@ -1,11 +1,11 @@
 import * as gulp from 'gulp'
 import * as path from 'path'
-import * as htmlmin from 'gulp-htmlmin'
-
-import { dist } from '../config'
+import * as minifyHTML from 'gulp-minify-html'
 
 gulp.task('build', ['dest'], () => {
+  const dist: any = require('../config').dist
+
   return gulp.src(path.join(dist, '/**/*.html'))
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(minifyHTML({ empty: true }))
     .pipe(gulp.dest(dist))
 })

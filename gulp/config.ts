@@ -1,4 +1,7 @@
-import * as path from 'path'
+import path = require('path')
 
-export const global = path.join(__dirname, '../')
-export const dist = path.join(global, 'dist')
+const global: any = path.join(__dirname, '../')
+module.exports = {
+  dist: path.join(global, 'dist'),
+  global: global
+}
