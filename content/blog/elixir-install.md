@@ -7,7 +7,7 @@ categories:
   - "elixir"
 ---
 
-Elixir楽しそうなので勉強はじめます  
+Elixir楽しそうなので勉強はじめます
 まずはerlangのinstallから
 
     brew install erlang

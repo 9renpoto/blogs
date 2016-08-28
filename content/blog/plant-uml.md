@@ -38,7 +38,7 @@ brew install graphviz
 
 これだけで使えます
 
-```
+```markdown
 @startuml
   class Bugs {
     -bug_id
