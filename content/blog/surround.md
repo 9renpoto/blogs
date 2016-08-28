@@ -7,7 +7,7 @@ categories:
   - "vim"
 ---
 
-<img class="u-max-full-width" src="http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif" >
+![image](http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif)
 
 surround.vim便利
 sublime-textでも使えるようですが

@@ -7,7 +7,7 @@ categories:
   - "vim"
 ---
 
-<img class="u-max-full-width" src="http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png" >
+![image](http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png)
 
 githubなどで開発しているとpullreqが便利で
 良くコードを見るようになりました
