@@ -111,7 +111,6 @@ bundle exec knife solo cook nodename
 
 ## 参考
 
-- [tsuchikazu.net/chef_solo_start](http://tsuchikazu.net/chef_solo_start/)
 - [qiita.com/uchiunyo/item](http://qiita.com/uchiunyo/items/5aa243f7a39ae443e10d)
 
 ## 最後に
