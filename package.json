@@ -1,16 +1,7 @@
 {
   "name": "@9renpoto/note",
-  "private": true,
-  "scripts": {
-    "build": "hugo -t delic && gulp build",
-    "lint:ja": "textlint content",
-    "lint:md": "markdownlint content",
-    "lint:ts": "tslint gulpfile.ts \"gulp/**/*.ts\"",
-    "lint": "npm-run-all -p lint:*",
-    "clean": "rimraf public dist",
-    "start": "hugo server -t delic",
-    "test": "npm run lint"
-  },
+  "description": "setup my blog builder",
+  "version": "0.0.0",
   "devDependencies": {
     "@9renpoto/tslint-config": "^1.0.0",
     "@types/gulp": "^3.8.31",
@@ -40,5 +31,17 @@
     "tslint": "^3.15.1",
     "typescript": "^2.0.0",
     "typescript-require": "^0.2.9-1"
+  },
+  "main": "",
+  "private": true,
+  "scripts": {
+    "build": "hugo -t delic && gulp build",
+    "clean": "rimraf public dist",
+    "lint": "npm-run-all -p lint:*",
+    "lint:ja": "textlint content",
+    "lint:md": "markdownlint content",
+    "lint:ts": "tslint gulpfile.ts \"gulp/**/*.ts\"",
+    "start": "hugo server -t delic",
+    "test": "npm run lint"
   }
 }
