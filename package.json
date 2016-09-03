@@ -1,5 +1,7 @@
 {
   "name": "@9renpoto/note",
+  "description": "setup my blog builder",
+  "version": "0.0.0",
   "devDependencies": {
     "@9renpoto/tslint-config": "^1.0.0",
     "@types/gulp": "^3.8.31",
@@ -30,6 +32,7 @@
     "typescript": "^2.0.0",
     "typescript-require": "^0.2.9-1"
   },
+  "main": "",
   "private": true,
   "scripts": {
     "build": "hugo -t delic && gulp build",
