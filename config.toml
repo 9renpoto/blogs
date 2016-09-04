@@ -11,7 +11,6 @@ MetaDataFormat = "yaml"
 
 [params]
   Links = ["blog", "profile", "slides"]
-  Disqus = "9renpoto"
   GithubID = "9renpoto"
   MainTitle = ":-)"
   TwitterID = "9renpoto"
