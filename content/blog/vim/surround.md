@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "括弧の入力には欠かせない"
 date: 2014-07-06
-comments: true
 categories:
   - "vim"
 ---

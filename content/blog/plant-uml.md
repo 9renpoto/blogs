@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "クラス図を簡単に - PlantUML"
 date: 2013-11-13
-comments: true
 categories:
   - "uml"
 ---

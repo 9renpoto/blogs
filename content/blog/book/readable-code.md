@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "リーダブルコード読みました"
 date: 2013-02-03
-comments: true
 categories:
   - "book"
 ---

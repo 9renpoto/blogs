@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "マルチカーソル"
 date: 2014-07-10
-comments: true
 categories:
   - "atom"
 ---

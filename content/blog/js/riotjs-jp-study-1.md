@@ -1,6 +1,6 @@
 ---
 date: 2016-07-27T19:31:28+09:00
-title: riot.js 勉強会 #1
+title: 'riot.js 勉強会 #1'
 categories:
   - "riot"
 ---

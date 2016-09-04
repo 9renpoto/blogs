@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "EscでIMEを抜ける"
 date: 2014-07-11
 categories:

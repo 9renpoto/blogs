@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Python Developer Festa 参加してきました"
 date: 2012-11-24
 categories:
