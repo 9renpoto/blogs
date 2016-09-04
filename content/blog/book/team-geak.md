@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "読書 Team Geek"
 date: 2013-12-25
-comments: true
 categories:
   - "book"
 ---

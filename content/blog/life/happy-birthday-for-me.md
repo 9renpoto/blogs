@@ -2,8 +2,8 @@
 layout: post
 title: "25歳になりました"
 date: 2013-01-22
-comments: true
 categories:
+  'life'
 ---
 
 ![image](https://lh6.googleusercontent.com/-WIyjTfgk1Uc/UWlAsazqCFI/AAAAAAAAEE8/DaWEW_h96zc/s719/IMG_0129.JPG)

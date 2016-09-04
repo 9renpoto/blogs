@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "riak meetup tokyoに参加してきました"
 date: 2013-03-12
-comments: true
 categories:
   - "erlang"
 ---

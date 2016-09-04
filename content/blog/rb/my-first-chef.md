@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "入門chef"
 date: 2013-12-22
-comments: true
 categories:
  - "ruby"
  - "chef"

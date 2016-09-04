@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "同じkeyのハッシュのを作る時の操作"
 date: 2014-07-03
-comments: true
 categories:
   - "vim"
 ---

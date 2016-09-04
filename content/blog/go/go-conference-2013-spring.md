@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "Go Conference 2013 spring参加してきました #gocon"
 date: 2013-04-13
-comments: true
 categories:
   - "go"
 ---

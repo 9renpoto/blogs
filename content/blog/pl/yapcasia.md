@@ -1,8 +1,6 @@
 ---
-layout: post
 date: 2015-08-21T09:53:55+09:00
 title: yapcasia
-comments: true
 categories:
   - "perl"
 ---

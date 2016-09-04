@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "elixir install"
 date: 2012-12-20
-comments: true
 categories:
   - "elixir"
 ---

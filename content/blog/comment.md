@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "コメントを楽に入れる"
 date: 2014-07-07
-comments: true
 categories:
   - "atom"
   - "vim"

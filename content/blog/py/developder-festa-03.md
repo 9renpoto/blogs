@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "pyfes 2013/3"
 date: 2013-03-16
-comments: true
 categories:
   - "python"
 ---

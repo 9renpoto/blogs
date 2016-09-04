@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "GitGutter便利すぎ"
 date: 2014-07-05
-comments: true
 categories:
   - "vim"
 ---
