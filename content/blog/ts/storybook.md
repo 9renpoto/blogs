@@ -1,6 +1,10 @@
 ---
 date: 2016-09-13T21:38:08+09:00
 title: storybook を TypeScript で動かす
+categories:
+  - "javascript"
+  - "react"
+  - "typescript"
 ---
 
 # React Storybook を試す
