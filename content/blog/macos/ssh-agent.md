@@ -1,10 +1,9 @@
 ---
 date: 2016-09-25T12:11:46+09:00
-draft: true
-title: ssh agent
+title: macOS キーチェインが動かなくなったので keychain を導入する
 ---
 
-# macOS update
+# macOS update メモ
 
 ssh passphrase を常に問い合わされるようになった
 
