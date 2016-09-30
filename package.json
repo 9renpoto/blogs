@@ -44,6 +44,6 @@
     "lint:md": "markdownlint content",
     "lint:ts": "tslint gulpfile.ts \"gulp/**/*.ts\"",
     "start": "hugo server -t delic",
-    "test": "npm run lint"
+    "test": "npm-run-all -p lint build"
   }
 }
