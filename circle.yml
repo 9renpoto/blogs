@@ -8,6 +8,11 @@ machine:
   node:
     version: v6.1.0
 
+general:
+  artifacts:
+    - "public"
+    - "dist"
+
 dependencies:
   pre:
     - go get -u -v github.com/spf13/hugo
