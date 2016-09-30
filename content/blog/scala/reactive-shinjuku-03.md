@@ -1,6 +1,5 @@
 ---
 date: 2016-09-29T19:02:35+09:00
-draft: true
 title: 第3回 Reactive System Meetup in 西新宿
 ---
 
@@ -37,6 +36,8 @@ ChatWork株式会社 加藤潤一氏（@j5ik2o）
 
 ここからスライドを参照してあとで勉強する
 
+<https://speakerdeck.com/yoskhdia/modeling-the-domain-event>
+
 ## Lagom で学ぶ Reactive Microservices Architecture
 
 TIS株式会社 根来和輝（@negokaz）
@@ -48,3 +49,5 @@ TIS株式会社 根来和輝（@negokaz）
   - 分散型の永続化機構
     - CQRS + Event Sroucing
   - Circuit Breaker
+
+<http://www.slideshare.net/negokaz/lagom-reactive-microservices-architecture>
