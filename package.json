@@ -37,7 +37,8 @@
   "main": "",
   "private": true,
   "scripts": {
-    "build": "npm run clean && hugo -t delic && gulp build",
+    "build": "npm-run-all clean build:content",
+    "build:content": "hugo -t delic && gulp build",
     "clean": "rimraf public dist",
     "lint": "npm-run-all -p lint:*",
     "lint:ja": "textlint content",
