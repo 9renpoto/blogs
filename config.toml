@@ -11,7 +11,9 @@ MetaDataFormat = "yaml"
 
 [params]
   Links = ["blog", "profile", "slides"]
-  GithubID = "9renpoto"
-  MainTitle = ":-)"
-  TwitterID = "9renpoto"
   GoogleTagManagerID = "GTM-TD87SR"
+  MainTitle = ":-)"
+  GithubID = "9renpoto"
+  TwitterID = "9renpoto"
+  FacebookID = "9renpoto"
+  YoutubeID = "UCHkajp8KwHzG-88kcNoRAbw"
