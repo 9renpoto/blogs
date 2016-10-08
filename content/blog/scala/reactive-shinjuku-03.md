@@ -52,4 +52,4 @@ TIS株式会社 根来和輝（@negokaz）
     - CQRS + Event Sroucing
   - Circuit Breaker
 
-<www.slideshare.net/negokaz/lagom-reactive-microservices-architecture>
+www.slideshare.net/negokaz/lagom-reactive-microservices-architecture
