@@ -12,7 +12,7 @@ categories:
 
 ## themeを書くために
 
-cmd1つでテンプレート作成
+cmd1つでテンプレート作成。
 
 ```sh
 $ hugo new theme foo
@@ -36,7 +36,7 @@ $ hugo new theme foo
     └── theme.toml
 ```
 
-[Document](http://gohugo.io/templates/overview/) がよくまとまっていますので参考に
+[Document](http://gohugo.io/templates/overview/) がよくまとまっていますので参考に。
 
 - このあたりが特にお世話になりました
   - [functions](http://gohugo.io/templates/functions/)
@@ -50,7 +50,7 @@ $ hugo new theme foo
 
 ## 感想
 
-octpressの時はtheme流用してたので手作りも勉強になりました
+octpressの時はtheme流用してたので手作りも勉強になりました。
 
 t32kさんの[mol](https://github.com/t32k/mol)を参考（ほぼコピー&ペーストして）に作りました
-ありがとうございます
+ありがとうございます。

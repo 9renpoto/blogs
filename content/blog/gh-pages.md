@@ -12,7 +12,7 @@ categories:
 
 ## Hugoを利用してgh-pagesにデプロイ
 
-公式ドキュメントでwercker-ciを利用したデプロイ方法が[紹介](https://gohugo.io/tutorials/automated-deployments/)されており、そちらを利用していましたが
+公式ドキュメントでwercker-ciを利用したデプロイ方法が[紹介](https://gohugo.io/tutorials/automated-deployments/)されており、そちらを利用していましたが。
 
 ```sh
 http://9renpoto.github.io/<project_name>
@@ -29,7 +29,7 @@ http://9renpoto.github.io/<project_name>
 <username>.github.io
 ```
 
-リポジトリーを作成し `master` ブランチにpushされることによって公開される（not gh-pages branch)ようなので
+リポジトリーを作成し `master` ブランチにpushされることによって公開される（not gh-pages branch)ようなので。
 
 `public/` に生成されたものを `<username>.github.io` にdestするように修正しました。
 
@@ -39,4 +39,4 @@ http://9renpoto.github.io/<project_name>
 
 ## Feature
 
-ビルド・デプロイタスクを直す
+ビルド・デプロイタスクを直す。

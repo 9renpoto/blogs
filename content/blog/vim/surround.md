@@ -9,4 +9,4 @@ categories:
 
 surround.vim便利
 sublime-textでも使えるようですが
-atomの公式パッケージにも早くほしい
+atomの公式パッケージにも早くほしい。

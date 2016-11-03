@@ -7,7 +7,7 @@ categories:
 
 # 勉強する
 
-勉強について考える
+勉強について考える。
 
 ## TL;DR
 
@@ -34,4 +34,4 @@ categories:
 
 ## 余談
 
-Overwatchで勝てないのが厳しい
+Overwatchで勝てないのが厳しい。

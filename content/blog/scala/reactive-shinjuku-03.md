@@ -36,7 +36,7 @@ ChatWork株式会社加藤潤一氏（@j5ik2o）
   - `モデル = 考え方とコードを結びつけたソフトウェア` を実現する
 - ドメイン層の隔離
 
-ここからスライドを参照してあとで勉強する
+ここからスライドを参照してあとで勉強する。
 
 <https://speakerdeck.com/yoskhdia/modeling-the-domain-event>
 

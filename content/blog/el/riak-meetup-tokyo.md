@@ -10,7 +10,7 @@ categories:
 @kuenishi
 
 分散システムの研究や開発は5年ぐらい
-日本法人が9月に出来た
+日本法人が9月に出来た。
 
 ## Riakの紹介
 
@@ -25,7 +25,7 @@ categories:
 * Link Walking
 * Consistent Hassing and Replicas / Vecteor Clocks
 
-分散システム、ざっくり
+分散システム、ざっくり。
 
 * Graph
 * SQL

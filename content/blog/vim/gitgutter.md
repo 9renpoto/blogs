@@ -9,11 +9,11 @@ categories:
 
 githubなどで開発しているとpullreqが便利で
 良くコードを見るようになりました
-意味のないコード差分などはできれば出したくない
+意味のないコード差分などはできれば出したくない。
 
 sublimeにもatomにもあってvimにはないのか！
-と思ってたら検索して3分で見つかりました
+と思ってたら検索して3分で見つかりました。
 
-最高です
+最高です。
 
 [vim-gitgutter](https://github.com/airblade/vim-gitgutter)

@@ -7,7 +7,7 @@ categories:
 
 # octpress 試す
 
-Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ
+Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ。
 
 ## github pageの初期化
 
@@ -26,7 +26,7 @@ git push -u origin master
 
 ### octpressのインストール
 
-先ほど作成した *username.github.com* と同じ階層にoctpressをcloneする
+先ほど作成した *username.github.com* と同じ階層にoctpressをcloneする。
 
 ```sh
 git clone git://github.com/imathis/octopress.git octopress
@@ -47,7 +47,7 @@ rake deploy
 ### 記事投稿
 
 記事の作成もコマンド1つ
-タイトルは英語で
+タイトルは英語で。
 
 ```sh
 rake new_post["my-new-page"]
@@ -55,11 +55,11 @@ rake new_post["my-new-page"]
 rake new_post\["my-new-page"\]
 ```
 
-markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかなかに良い仕組み
+markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかなかに良い仕組み。
 
-いろいろ勉強します
+いろいろ勉強します。
 
-参考文献
+参考文献。
 
 * <http://octopress.org/>
 * <http://tokkonopapa.github.com/blog/2011/12/30/octopress-on-github-and-bitbucket/>

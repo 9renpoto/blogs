@@ -7,7 +7,7 @@ categories:
 
 # yapc asia memo
 
-yapcasiaに参加したときのメモを残します
+yapcasiaに参加したときのメモを残します。
 
 ## Effective ES6
 

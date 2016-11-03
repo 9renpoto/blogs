@@ -68,7 +68,7 @@ by @Quramy (株式会社WACUL)
 - Rollbar
   - 裏でsourcemap連携
 
-##　コンテンツ配信とSPA
+##　コンテンツ配信とSPA。
 
 by @konpyu (Piece of cake,Inc)
 

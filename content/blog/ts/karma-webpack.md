@@ -10,7 +10,7 @@ categories:
 
 <https://travis-ci.org/9renpoto/ts/builds/156475663>
 
-上手く動かない
+上手く動かない。
 
 - アバウトな構成
 
@@ -41,9 +41,9 @@ categories:
 }
 ```
 
-`tsc` しても `webpack` しても問題ないように見えるが、 `karma` を通した場合 `SyntaxError` など出てきて非常に厳しい
+`tsc` しても `webpack` しても問題ないように見えるが、 `karma` を通した場合 `SyntaxError` など出てきて非常に厳しい。
 
 <https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample>
 
 同様の構成で先に検証頂いているものを発見するも、現在構成との違いの無さに
-こちらが動かない理由は不明、頭を悩ませる
+こちらが動かない理由は不明、頭を悩ませる。

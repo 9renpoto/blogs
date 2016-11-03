@@ -11,7 +11,7 @@ categories:
 
 ## Go言語で作るWebアプリ @tenntenn
 
-HTTPサーバー簡単に書ける
+HTTPサーバー簡単に書ける。
 
 * <https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&loop=false&delayms=3000#slide=id.gb8818ff4_2_0>
 

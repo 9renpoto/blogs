@@ -9,7 +9,7 @@ categories:
 
 ## Cloudera Impalaについて
 
-@shiumachiさんより
+@shiumachiさんより。
 
 ### Impalaとは
 
@@ -29,7 +29,7 @@ categories:
 ### なぜ開発されたのか
 
 Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる
-Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかった
+Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかった。
 
 ### MapReduceとは
 
@@ -55,7 +55,7 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
 
 ## Python in Webkit
 
-@omo2009さんより
+@omo2009さんより。
 
 ### Third party Tools
 
@@ -74,7 +74,7 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
     webkit-patch rollout
     #
 
-プロジェクト特有の問題を解決するために使っている
+プロジェクト特有の問題を解決するために使っている。
 
     watchlist
     suggest-reviewers
@@ -86,12 +86,12 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
 + 誰にレビューしてもらったか忘れちゃう
 + 探すのに便利
 
-IRCでレビューを頼むと断られにくい
+IRCでレビューを頼むと断られにくい。
 
 ## Connpassについて
 
 @lanMLewis, @ae35
-概要と技術について
+概要と技術について。
 
 ### connpassとは
 
