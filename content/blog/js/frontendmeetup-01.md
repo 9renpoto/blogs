@@ -23,14 +23,14 @@ by @takayuki_shmz (株式会社FiNC)
 - 最初に抑えるべき
   - 正しいコンポーネント思考
     - smart component
-      - dumb コンポーネントと action, storeを繋ぐ
+      - dumbコンポーネントとaction, storeを繋ぐ
     - dumb component
 - Statelessコンポーネントが原則
-  - case by case だけども
-- cssはコンポーネントと 1v1
+  - case by caseだけども
+- cssはコンポーネントと1v1
 - this.contents
   - <https://facebook.github.io/react/docs/context.html>
-  - API 層を context に渡し container を呼ぶ
+  - API層をcontextに渡しcontainerを呼ぶ
 
 ## 革命と秩序とSPA(React、flux、flowtype)
 
@@ -43,7 +43,7 @@ by @joe_re (freee株式会社)
 - vue
   - mvvm
 - react & flux
-  - single-state を途中から導入するのがツラい
+  - single-stateを途中から導入するのがツラい
   - flux-utils
     - サポートの範囲が小さい分外しやすい
 - flowtype
@@ -66,7 +66,7 @@ by @Quramy (株式会社WACUL)
   - component:css = 1:1
   - <https://github.com/ukyo/angular-simple-bem>
 - Rollbar
-  - 裏でsourcemap 連携
+  - 裏でsourcemap連携
 
 ##　コンテンツ配信とSPA
 
@@ -74,7 +74,7 @@ by @konpyu (Piece of cake,Inc)
 
 - note <https://note.mu/>
   - angular 1.3
-  - mobile 遅い
+  - mobile遅い
 - Drupal8
 - SSR
 - HTTP2

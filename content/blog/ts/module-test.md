@@ -7,7 +7,7 @@ categories:
   - "javascript"
 ---
 
-TypeScript の勉強を頑張ろう
+TypeScriptの勉強を頑張ろう
 
 - [9renpoto/javascript/pull/19](https://github.com/9renpoto/javascript/pull/19)
 - [commit](https://github.com/9renpoto/javascript/tree/fbb4448064f42461936bb02b792e9a6ec4f8c189)
@@ -28,8 +28,8 @@ TypeScript の勉強を頑張ろう
 
 下記を満たす簡単なサンプルを書く
 
-- 複数 module
-- mocha によるテスト
+- 複数module
+- mochaによるテスト
 - power-assertによるテスト
 
 `espower-typescript` が通らないので中身を見て調べる

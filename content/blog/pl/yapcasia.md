@@ -97,7 +97,7 @@ var p = Person('bob');
   ```javascript
   if (a => 1) # if ( a >= 1 ) が正
   ```
-  - balel　っていこう
+  - balelっていこう
 
 ## 今フロントエンドで何が起こっているのか
 

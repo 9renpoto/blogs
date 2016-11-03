@@ -117,7 +117,7 @@ IRCでレビューを頼むと断られにくい
 + クライアントサイド
   + CoffeeScript
   + REQUIRE JS
-  + JavaScript 怖い
+  + JavaScript怖い
 
 ## PHP Language Update
 

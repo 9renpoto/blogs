@@ -13,12 +13,12 @@ categories:
 
 ## リアクティブDDDについて
 
-ChatWork株式会社 加藤潤一氏（@j5ik2o）
+ChatWork株式会社加藤潤一氏（@j5ik2o）
 
 - リアクティブDDD
   - リアクティブシステム && ドメイン駆動設計
-- Actor は DDDで示されるコンセプトを表現できる
-- リアクティブシステムと Akka
+- ActorはDDDで示されるコンセプトを表現できる
+- リアクティブシステムとAkka
 - リアクティブ宣言 <http://www.reactivemanifesto.org/>
   - Elastic
   - Responsive
@@ -42,12 +42,12 @@ ChatWork株式会社 加藤潤一氏（@j5ik2o）
 
 ## Lagom で学ぶ Reactive Microservices Architecture
 
-TIS株式会社 根来和輝（@negokaz）
+TIS株式会社根来和輝（@negokaz）
 
 - Reactive Microservices Architecture
 - Lagom
   - 非同期・ノンブロッキングAPI
-  - Sharding によるステートフルアーキテクト
+  - Shardingによるステートフルアーキテクト
   - 分散型の永続化機構
     - CQRS + Event Sroucing
   - Circuit Breaker

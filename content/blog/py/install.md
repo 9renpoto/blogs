@@ -41,4 +41,4 @@ pythonbrew install 3.2
 pythonbrew switch 3.2
 ```
 
-virtualenv の環境はまた今度する
+virtualenvの環境はまた今度する
