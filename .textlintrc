@@ -34,6 +34,7 @@
       "max": 100
     },
     "preset-ja-spacing": true,
-    "preset-ja-technical-writing": true
+    "preset-ja-technical-writing": true,
+    "ja-no-abusage": true
   }
 }
