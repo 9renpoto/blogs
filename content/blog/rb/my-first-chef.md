@@ -5,13 +5,12 @@ categories:
  - "ruby"
  - "chef"
 ---
-
 # chef memo
 
 環境構築といえば、chefだという噂を随分と聞くようになってきましたが、
 なんだかんだと使ってなかったのでメモ。
 とはいえ、レシピは誰かが書いてるので、
-今回は出来る限りレシピを使う方法で構築を目指す
+今回は出来る限りレシピを使う方法で構築を目指す。
 
 ## 前準備
 
@@ -24,13 +23,13 @@ gem 'chef'
 gem 'knife-solo'
 ```
 
-必要なgemをいつものように
+必要なgemをいつものように。
 
 ```sh
 bundle install
 ```
 
-chef-soloを使えるように初期設定を行う
+chef-soloを使えるように初期設定を行う。
 
 ```sh
 bundle exec knife configure
@@ -38,7 +37,7 @@ bundle exec knife configure
 
 ## そろそろchef
 
-ひな形の生成
+ひな形の生成。
 
 ```bash
 $ bundle exec knife solo init chef-repo
@@ -52,7 +51,7 @@ chef-repo/
 └── solo。rb
 ```
 
-忘れないうちにコミット
+忘れないうちにコミット。
 
 ```sh
 cd chef-repo
@@ -61,7 +60,7 @@ git add 。
 git commit -m 'first commit'
 ```
 
-公式なり、Githubにて公開されているレシピを利用しやすくるものとして **Berksfile** があります
+公式なり、Githubにて公開されているレシピを利用しやすくるものとして **Berksfile** があります。
 
 ```ruby
 site :opscode # Berksfile
@@ -74,20 +73,20 @@ cookbook 'the_silver_searcher'
 ```
 
 公開されているレシピの情報を記述しておけば、コマンド1つで落としてこれます。
-便利
+便利。
 
 ```sh
 bundle exec berks install --path cookbooks
 ```
 
-vagrant側でchefが使えるように以下のコマンドを実行
+vagrant側でchefが使えるように以下のコマンドを実行。
 
 ```sh
 bundle exec knife solo prepare nodename
 ```
 
 インストールしたいレシピを追加
-node/nodename.json
+node/nodename.json。
 
 ```js
 {
@@ -101,7 +100,7 @@ node/nodename.json
 }
 ```
 
-レシピはできたのでcookしましょう
+レシピはできたのでcookしましょう。
 
 ```sh
 bundle exec knife solo cook nodename

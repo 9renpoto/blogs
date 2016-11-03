@@ -4,13 +4,12 @@ date: 2013-03-12
 categories:
   - "erlang"
 ---
-
 # Riak intro & RICON報告
 
 @kuenishi
 
 分散システムの研究や開発は5年ぐらい
-日本法人が9月に出来た
+日本法人が9月に出来た。
 
 ## Riakの紹介
 
@@ -25,7 +24,7 @@ categories:
 * Link Walking
 * Consistent Hassing and Replicas / Vecteor Clocks
 
-分散システム、ざっくり
+分散システム、ざっくり。
 
 * Graph
 * SQL
@@ -64,5 +63,5 @@ categories:
   * Riak
 
 * Riakはバックエンドでたてないとダメ
-* Riak Searchを使って全文検索可能
+* Riak Searchを使って全文検索が可能
 * 今後、Yokozunaに移行予定

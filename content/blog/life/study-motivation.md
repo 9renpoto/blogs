@@ -2,12 +2,11 @@
 date: 2016-09-05T00:54:18+09:00
 title: 勉強を続けること
 categories:
-  - 'life'  
+  - 'life'
 ---
-
 # 勉強する
 
-勉強について考える
+勉強について考える。
 
 ## TL;DR
 
@@ -34,4 +33,4 @@ categories:
 
 ## 余談
 
-Overwatch で勝てないのが厳しい
+Overwatchで勝てないのが厳しい。

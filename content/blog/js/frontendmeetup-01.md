@@ -2,12 +2,11 @@
 date: 2016-09-16T19:29:30+09:00
 title: Frontend Meetup 01 参加メモ
 ---
-
 # Frontend Meeup \#1
 
 <http://connpass.com/event/38112/>
 
-## React/Reduxで快適フロントエンドライフ(仮)
+## React/Reduxで快適フロントエンドライフ（仮）
 
 by @takayuki_shmz (株式会社FiNC)
 
@@ -15,7 +14,7 @@ by @takayuki_shmz (株式会社FiNC)
 
 - React & Redux
   - 学習コスト
-  - JSX(うんじゃら)
+  - JSX(うんじゃら）
 - 後悔したこと
   - つらいコンポーネント
   - つらい繰り返し・テスト
@@ -23,18 +22,18 @@ by @takayuki_shmz (株式会社FiNC)
 - 最初に抑えるべき
   - 正しいコンポーネント思考
     - smart component
-      - dumb コンポーネントと action, storeを繋ぐ
+      - dumbコンポーネントとaction, storeを繋ぐ
     - dumb component
 - Statelessコンポーネントが原則
-  - case by case だけども
-- cssはコンポーネントと 1v1
+  - case by caseだけども
+- cssはコンポーネントと1v1
 - this.contents
   - <https://facebook.github.io/react/docs/context.html>
-  - API 層を context に渡し container を呼ぶ
+  - API層をcontextに渡しcontainerを呼ぶ
 
 ## 革命と秩序とSPA(React、flux、flowtype)
 
-by @joe_re (freee株式会社)
+by @joe_re (freee株式会社）
 
 <https://speakerdeck.com/joere/ge-ming-tozhi-xu-tospa>
 
@@ -43,7 +42,7 @@ by @joe_re (freee株式会社)
 - vue
   - mvvm
 - react & flux
-  - single-state を途中から導入するのがツラい
+  - single-stateを途中から導入するのがツラい
   - flux-utils
     - サポートの範囲が小さい分外しやすい
 - flowtype
@@ -66,22 +65,22 @@ by @Quramy (株式会社WACUL)
   - component:css = 1:1
   - <https://github.com/ukyo/angular-simple-bem>
 - Rollbar
-  - 裏でsourcemap 連携
+  - 裏でsourcemap連携
 
-##　コンテンツ配信とSPA
+##　コンテンツ配信とSPA。
 
 by @konpyu (Piece of cake,Inc)
 
 - note <https://note.mu/>
   - angular 1.3
-  - mobile 遅い
+  - mobile遅い
 - Drupal8
 - SSR
 - HTTP2
 
 ## SPAと覚悟
 
-by @teppeis (サイボウズ)
+by @teppeis (サイボウズ）
 
 - SPA
   - ブラウザーにとっては1枚のページに見えている
@@ -90,7 +89,7 @@ by @teppeis (サイボウズ)
 - a11y
 - ブラウザーを越えすぎても駄目
 
-## Angular2でつまづいたところ(仮)
+## Angular2でつまづいたところ（仮）
 
 by @nacika_ins
 

@@ -4,10 +4,9 @@ title: yapcasia
 categories:
   - "perl"
 ---
-
 # yapc asia memo
 
-yapcasiaに参加したときのメモを残します
+yapcasiaに参加したときのメモを残します。
 
 ## Effective ES6
 
@@ -97,7 +96,7 @@ var p = Person('bob');
   ```javascript
   if (a => 1) # if ( a >= 1 ) が正
   ```
-  - balel　っていこう
+  - balelっていこう
 
 ## 今フロントエンドで何が起こっているのか
 
@@ -144,7 +143,7 @@ var p = Person('bob');
 - Redux
   - Inspired by Flux and Elm
 
-## どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
+## どうしてこうなったNode.jsとio.jsの分裂と統合の行方。これからどう進化していくのか
 
 ### Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）
 

@@ -5,16 +5,15 @@ categories:
   - "typescript"
   - "javascript"
 ---
+# TypeScriptでpower-assertを使いたい
 
-# TypeScript で power-assert を使いたい
-
-[TypeScriptテストについて](/blog/2016/06/23/typescript-module-test/) 少し調べました
+[TypeScriptテストについて](/blog/2016/06/23/typescript-module-test/) 少し調べました。
 
 - <https://github.com/9renpoto/ts/pull/31>
 
 ## 原因
 
-- TypeScript がファイルパスを相対パスか絶対パスのどちらかで返す場合がある
+- TypeScriptがファイルパスを相対パスか絶対パスのどちらかで返す場合がある
   - <https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825>
 
 ## 対策
@@ -24,4 +23,4 @@ categories:
 ## 悩み
 
 - `rootDir`, `outDir` の組み合わせで挙動が変わることを理解する必要がある
-- `rootDirs` が入る(TypeScript 2.0~)
+- `rootDirs` が入る（TypeScript 2.0~)

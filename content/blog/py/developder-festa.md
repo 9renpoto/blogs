@@ -4,12 +4,11 @@ date: 2012-11-24
 categories:
   - "python"
 ---
-
 # Python Developer Festa参加してきたので、そのメモ
 
 ## Cloudera Impalaについて
 
-@shiumachiさんより
+@shiumachiさんより。
 
 ### Impalaとは
 
@@ -23,13 +22,14 @@ categories:
 
 ##### 02時点
 
-+ Trevni, RCFileのサポートは現状まだ、今後対応予定
++ Trevni, RCFileのサポートは現状まだ、今後に対応予定
 + Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい
 
 ### なぜ開発されたのか
 
-Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる
-Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかった
+Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる。
+
+Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかったからです。
 
 ### MapReduceとは
 
@@ -43,19 +43,19 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
 
 ### よくある質問
 
-#### QもうHiveいらないんじゃない？
+#### QもうHiveいらないんじゃない
 
 + 定期的に実行を行うクエリなどはHiveのほうが適しているのではないか
 
-#### Qimpalaが落ちたらどうするの？
+#### Qimpalaが落ちたらどうするの
 
 + クエリが全部こけます
-+ JOINのサイズ制限あるの？
++ JOINのサイズ制限あるの
   + あります
 
 ## Python in Webkit
 
-@omo2009さんより
+@omo2009さんより。
 
 ### Third party Tools
 
@@ -74,7 +74,7 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
     webkit-patch rollout
     #
 
-プロジェクト特有の問題を解決するために使っている
+プロジェクト特有の問題を解決するために使っている。
 
     watchlist
     suggest-reviewers
@@ -86,12 +86,12 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
 + 誰にレビューしてもらったか忘れちゃう
 + 探すのに便利
 
-IRCでレビューを頼むと断られにくい
+IRCでレビューを頼むと断られにくい。
 
 ## Connpassについて
 
 @lanMLewis, @ae35
-概要と技術について
+概要と技術について。
 
 ### connpassとは
 
@@ -117,7 +117,7 @@ IRCでレビューを頼むと断られにくい
 + クライアントサイド
   + CoffeeScript
   + REQUIRE JS
-  + JavaScript 怖い
+  + JavaScript怖い
 
 ## PHP Language Update
 
@@ -125,13 +125,13 @@ IRCでレビューを頼むと断られにくい
 
 + ジェネレートとコールーチン
   + yieldキーワードの追加
-+ foreachで変数分解だ！
++ foreachで変数分解だ
 + empty()の括弧内に変数以外が指定可能に
 + `finally`
   + `try-catch-finally`
     + なぜ今までになかったのか
   + fatal errorが発生すると `finaly` が呼ばれない
 
-Pythonでお仕事している人が日本にもたくさんいて嬉しいです！
+Pythonでお仕事している人が日本にもたくさんいて嬉しいです。
 
-発表者のみなさまおつかれさまでした！
+発表者のみなさまおつかれさまでした。
