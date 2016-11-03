@@ -5,7 +5,6 @@ categories:
  - "ruby"
  - "chef"
 ---
-
 # chef memo
 
 環境構築といえば、chefだという噂を随分と聞くようになってきましたが、

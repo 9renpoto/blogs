@@ -4,8 +4,7 @@ title: 'riot.js 勉強会 #1'
 categories:
   - "riot"
 ---
-
-# Riot.js 勉強会 \#1
+# Riot.js勉強会 \#1
 
 - <http://riotjs-jp.connpass.com/event/35724/>
 

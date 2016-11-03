@@ -6,13 +6,12 @@ categories:
   - "react"
   - "typescript"
 ---
-
-# React Storybook を試す
+# React Storybookを試す
 
 ## TL;DR
 
 - react-storybookはcomponentのstyleguide
-- TypeScriptのままでは動かせないので一度ビルドする(2016/09現在)
+- TypeScriptのままでは動かせないので一度ビルドする（2016/09現在）
 - addon拡張で開発が便利になるエコシステムはある
 - 途中経過
   - [9renpoto/style](https://github.com/9renpoto/style/tree/aab6f82ccb228a6b56a18223f6f66bf0f3bd78b1)
@@ -31,7 +30,7 @@ categories:
 - [2016年9月現在だとReactアプリのTypeScript採用は時期尚早](http://gfx.hatenablog.com/entry/2016/09/12/162055)
   - 確かに現状の型定義は古い
   - まだそこで困るほどReact使いこなせていない
-  - 緩く型を信じる・困ったら考える(個人では)
+  - 緩く型を信じる・困ったら考える（個人では）
 - `tsx`
   - サポートありがたい
   - DOMを型付きで定義できることの安心感

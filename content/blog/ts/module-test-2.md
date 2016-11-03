@@ -5,8 +5,7 @@ categories:
   - "typescript"
   - "javascript"
 ---
-
-# TypeScript で power-assert を使いたい
+# TypeScriptでpower-assertを使いたい
 
 [TypeScriptテストについて](/blog/2016/06/23/typescript-module-test/) 少し調べました。
 
@@ -24,4 +23,4 @@ categories:
 ## 悩み
 
 - `rootDir`, `outDir` の組み合わせで挙動が変わることを理解する必要がある
-- `rootDirs` が入る(TypeScript 2.0~)
+- `rootDirs` が入る（TypeScript 2.0~)

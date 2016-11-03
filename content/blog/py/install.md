@@ -4,10 +4,9 @@ date: 2012-09-13
 categories:
   - "python"
 ---
-
 # first Python
 
-Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から！
+Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から。
 
 ## Pythonのversion管理
 

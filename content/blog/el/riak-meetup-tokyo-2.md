@@ -4,7 +4,6 @@ date: 2013-07-10
 categories:
   - "erlang"
 ---
-
 # riak meetup tokyo 2 memo
 
 ## RTB and FreakOut
@@ -40,7 +39,7 @@ RTBの技術的課題。
   * スケーラビリティの問題を克服できるメリットは大きい
   * 「サーバーを足すだけで運用」
 
-### Yokozuna日本語検索機能を評価しました
+### Yokozuna日本語検索を評価しました
 
 @rev4t @yosisa
 

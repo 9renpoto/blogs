@@ -4,7 +4,6 @@ title: yapcasia
 categories:
   - "perl"
 ---
-
 # yapc asia memo
 
 yapcasiaに参加したときのメモを残します。
@@ -144,7 +143,7 @@ var p = Person('bob');
 - Redux
   - Inspired by Flux and Elm
 
-## どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？
+## どうしてこうなったNode.jsとio.jsの分裂と統合の行方。これからどう進化していくのか
 
 ### Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）
 

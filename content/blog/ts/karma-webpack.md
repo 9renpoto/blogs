@@ -7,10 +7,9 @@ categories:
   - "mocha"
   - "power-assert"
 ---
+# 上手く動かない
 
 <https://travis-ci.org/9renpoto/ts/builds/156475663>
-
-上手く動かない。
 
 - アバウトな構成
 

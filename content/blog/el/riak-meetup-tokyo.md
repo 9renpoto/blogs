@@ -4,7 +4,6 @@ date: 2013-03-12
 categories:
   - "erlang"
 ---
-
 # Riak intro & RICON報告
 
 @kuenishi
@@ -64,5 +63,5 @@ categories:
   * Riak
 
 * Riakはバックエンドでたてないとダメ
-* Riak Searchを使って全文検索可能
+* Riak Searchを使って全文検索が可能
 * 今後、Yokozunaに移行予定

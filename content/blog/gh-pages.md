@@ -2,9 +2,8 @@
 date: 2016-01-13T22:29:22+09:00
 title: Update Blog
 categories:
-  - 'github'  
+  - 'github'
 ---
-
 # TL;DR
 
 - Hugoを利用して `<username>.github.io` に公開

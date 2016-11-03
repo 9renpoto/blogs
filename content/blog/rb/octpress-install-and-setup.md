@@ -4,8 +4,7 @@ date: 2012-09-11
 categories:
   - "ruby"
 ---
-
-# octpress 試す
+# octpress試す
 
 Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ。
 

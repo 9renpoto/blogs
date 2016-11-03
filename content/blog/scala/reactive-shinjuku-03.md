@@ -4,7 +4,6 @@ title: 第3回 Reactive System Meetup in 西新宿
 categories:
   - "scala"
 ---
-
 # 参加メモ
 
 <http://reactive-shinjuku.connpass.com/event/38411/>
@@ -13,7 +12,7 @@ categories:
 
 ## リアクティブDDDについて
 
-ChatWork株式会社加藤潤一氏（@j5ik2o）
+株式会社ChatWork加藤潤一氏（@j5ik2o）
 
 - リアクティブDDD
   - リアクティブシステム && ドメイン駆動設計
@@ -25,10 +24,10 @@ ChatWork株式会社加藤潤一氏（@j5ik2o）
   - Reslilient
   - Message Driven
 - ソフトウェアの災いを表す用語
-  - 誤差・誤り(error)
-  - 欠陥(defect, バグを含む概念)
-  - 障害(fault)
-  - 故障(failure)
+  - 誤差・誤り（error)
+  - 欠陥（defect, バグを含む概念）
+  - 障害（fault)
+  - 故障（failure)
 - メッセージ駆動
 - Akka
   - 2011年の記事ではErlangの2倍のスループットを発揮した
@@ -40,9 +39,9 @@ ChatWork株式会社加藤潤一氏（@j5ik2o）
 
 <https://speakerdeck.com/yoskhdia/modeling-the-domain-event>
 
-## Lagom で学ぶ Reactive Microservices Architecture
+## Lagomで学ぶReactive Microservices Architecture
 
-TIS株式会社根来和輝（@negokaz）
+株式会社TIS根来和輝（@negokaz）
 
 - Reactive Microservices Architecture
 - Lagom

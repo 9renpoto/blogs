@@ -2,8 +2,7 @@
 date: 2016-09-25T12:11:46+09:00
 title: macOS キーチェインが動かなくなったので keychain を導入する
 ---
-
-# macOS update メモ
+# macOS updateメモ
 
 ssh passphraseを常に問い合わされるようになった。
 
@@ -12,7 +11,7 @@ ssh passphraseを常に問い合わされるようになった。
 - keychain
 - ssh-agent
 
-## keychain 入れてみる
+## keychain入れてみる
 
 - <https://github.com/9renpoto/dotfiles/pull/32>
 

@@ -5,8 +5,7 @@ categories:
   - "typescript"
   - "javascript"
 ---
-
-# TypeScript で Coverage report を計測する
+# TypeScriptでCoverage reportを計測する
 
 ## TL;DR
 
@@ -23,7 +22,7 @@ categories:
 - [espower-typescript](https://www.npmjs.com/package/espower-typescript) を使わないようになる
   - `espower-typescript` はtscのwrapperなのでtscする場合は使えなそう
 - `power-assert` が上手く構造を解釈してくれてなさそう
-  - `espower-typescript` が担っていた役割を別で与える必要がある?
+  - `espower-typescript` が担っていた役割を別で与える必要がある
   - TypeScriptに依存するなら無駄にbabel pluginなどは使いたくない
     - TODO考える
 

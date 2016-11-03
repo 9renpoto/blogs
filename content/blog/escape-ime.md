@@ -4,7 +4,6 @@ date: 2014-07-11
 categories:
   - "vim"
 ---
-
 # vimなど使ってるとEscapeしてIMEが残ってるとイライライラ
 
 [ESCで確実にIMEをオフにする](http://nobeans.hatenablog.com/entry/20090211/1234326782)を参考に設定を反映してみるも直ってないご様子。

@@ -2,12 +2,11 @@
 date: 2016-09-16T19:29:30+09:00
 title: Frontend Meetup 01 参加メモ
 ---
-
 # Frontend Meeup \#1
 
 <http://connpass.com/event/38112/>
 
-## React/Reduxで快適フロントエンドライフ(仮)
+## React/Reduxで快適フロントエンドライフ（仮）
 
 by @takayuki_shmz (株式会社FiNC)
 
@@ -15,7 +14,7 @@ by @takayuki_shmz (株式会社FiNC)
 
 - React & Redux
   - 学習コスト
-  - JSX(うんじゃら)
+  - JSX(うんじゃら）
 - 後悔したこと
   - つらいコンポーネント
   - つらい繰り返し・テスト
@@ -34,7 +33,7 @@ by @takayuki_shmz (株式会社FiNC)
 
 ## 革命と秩序とSPA(React、flux、flowtype)
 
-by @joe_re (freee株式会社)
+by @joe_re (freee株式会社）
 
 <https://speakerdeck.com/joere/ge-ming-tozhi-xu-tospa>
 
@@ -81,7 +80,7 @@ by @konpyu (Piece of cake,Inc)
 
 ## SPAと覚悟
 
-by @teppeis (サイボウズ)
+by @teppeis (サイボウズ）
 
 - SPA
   - ブラウザーにとっては1枚のページに見えている
@@ -90,7 +89,7 @@ by @teppeis (サイボウズ)
 - a11y
 - ブラウザーを越えすぎても駄目
 
-## Angular2でつまづいたところ(仮)
+## Angular2でつまづいたところ（仮）
 
 by @nacika_ins
 

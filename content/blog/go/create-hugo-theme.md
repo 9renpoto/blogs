@@ -4,7 +4,6 @@ title: create hugo theme
 categories:
   - "hugo"
 ---
-
 # TL;DR
 
 - ブログを `octpress` から `hugo` へ移行しました
