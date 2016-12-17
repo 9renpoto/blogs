@@ -1,2 +1,2 @@
-let dir: any = require('require-dir')
+const dir = require('require-dir')
 dir('./gulp/tasks', { 'recurse': true })
