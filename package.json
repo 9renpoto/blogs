@@ -47,14 +47,14 @@
   "private": true,
   "scripts": {
     "build": "npm-run-all clean build:content",
-    "build:content": "hugo -t delic && gulp build",
+    "build:content": "hugo -t delic --uglyURLs && gulp build",
     "clean": "rimraf public dist",
     "lint": "npm-run-all -p lint:*",
     "lint:es": "eslint . --ext=ts",
     "lint:ja": "textlint content",
     "lint:md": "markdownlint content",
     "lint:ts": "tslint gulpfile.ts gulp/*.ts gulp/**/*.ts",
-    "start": "hugo server -t delic -w",
+    "start": "hugo server -t delic --uglyURLs -w",
     "test": "npm-run-all -p lint build"
   }
 }

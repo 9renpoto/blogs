@@ -1,4 +1,4 @@
-*.js
+.textlintcache
 dist/
 public/
 tmp/
