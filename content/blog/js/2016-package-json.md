@@ -1,6 +1,8 @@
 ---
 date: 2017-01-03T11:32:03+09:00
 title: 2016 package.json
+categories:
+  - 'javascript'
 ---
 # 現在依存モジュール
 

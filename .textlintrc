@@ -1,7 +1,6 @@
 {
   "rules": {
     "incremental-headers": true,
-    "ja-no-abusage": true,
     "ja-no-mixed-period": true,
     "ja-no-successive-word": true,
     "ja-no-weak-phrase": true,
@@ -16,7 +15,6 @@
     "no-mix-dearu-desumasu": true,
     "no-nfd": true,
     "preset-ja-spacing": true,
-    "preset-ja-technical-writing": true,
     "preset-jtf-style": true,
     "sentence-length": { "max": 100 }
   }
