@@ -4,6 +4,7 @@ node_js:
 - stable
 - 6
 - 5
+go: master
 git:
   submodules: false
 before_install:
