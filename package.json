@@ -48,7 +48,7 @@
     "build:content": "hugo -t delic --uglyURLs && gulp build",
     "clean": "rimraf public dist",
     "lint": "npm-run-all -p lint:*",
-    "lint:es": "eslint . --ext=ts",
+    "lint:es": "eslint . --ext=ts --cache",
     "lint:ja": "textlint content --cache",
     "lint:md": "markdownlint content",
     "lint:ts": "tslint gulpfile.ts gulp/*.ts gulp/**/*.ts",
