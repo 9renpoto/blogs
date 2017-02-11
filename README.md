@@ -1,5 +1,7 @@
 # @9renpoto/note
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/9renpoto/note.svg)](https://greenkeeper.io/)
+
 lazy build
 
 [![Stories in Ready][waffle-image]][waffle-url] [![Dependency Status][david-dm-image]][david-dm-url] [![devDependency Status][dev-david-dm-image]][dev-david-dm-url] [![Circle CI][circle-image]][circle-url]
