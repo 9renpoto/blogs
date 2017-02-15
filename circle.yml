@@ -24,3 +24,7 @@ deployment:
     branch: master
     commands:
       - sh ./deploy.sh
+
+notify:
+  webhooks:
+    - url: $GITTER_WEBHOOK_URL
