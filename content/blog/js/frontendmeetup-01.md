@@ -4,7 +4,7 @@ title: Frontend Meetup 01 参加メモ
 ---
 # Frontend Meeup \#1
 
-<http://connpass.com/event/38112/>
+<https://connpass.com/event/38112/>
 
 ## React/Reduxで快適フロントエンドライフ（仮）
 

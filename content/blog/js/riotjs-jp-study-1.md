@@ -6,7 +6,7 @@ categories:
 ---
 # Riot.js勉強会 \#1
 
-- <http://riotjs-jp.connpass.com/event/35724/>
+- <https://riotjs-jp.connpass.com/event/35724/>
 
 ## 参加メモ
 
@@ -25,7 +25,7 @@ categories:
 ## Next
 
 - styleguideを書く
-  - <https://github.com/9renpoto/style>
+  - <https://github.com/9renpoto/react-components>
 - riotを使った簡単なものを作る
   - <https://github.com/9renpoto/profile>
 

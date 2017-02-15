@@ -66,8 +66,8 @@ brew install graphviz
 
 ## 参考
 
-- [d.hatena.ne.jp/a_bicky/20121016/1350347857](http://d.hatena.ne.jp/a_bicky/20121016/1350347857)
-- [http://yohshiy.blog.fc2.com/blog-entry-152.html](http://yohshiy.blog.fc2.com/blog-entry-152.html)
+- <https://abicky.net/2012/10/16/093737/>
+- <http://yohshiy.blog.fc2.com/blog-entry-152.html>
 
 ## GUI関連
 
@@ -82,10 +82,6 @@ Officeツール以外で関連ツールを探すと上位に出てくる[良い�
 
 ### Cacoo
 
-今までなかなか縁がなく利用していなかったCacooですが、。
-
-[100万ユーザ突破した](http://blog.cacoo.com/ja/2013/11/06/cacoo-user-1m/)という記事を確認して。
-
-そういえば使ってなかったなと思い、軽く使ってみました。
+今までなかなか縁がなく利用していなかったCacooですが、そういえば使ってなかったなと思い軽く使ってみました。
 
 ChromeAppなどで使えますし、お気軽さではダントツ。
