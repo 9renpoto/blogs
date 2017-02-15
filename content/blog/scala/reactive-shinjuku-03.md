@@ -6,7 +6,7 @@ categories:
 ---
 # 参加メモ
 
-<http://reactive-shinjuku.connpass.com/event/38411/>
+<https://reactive-shinjuku.connpass.com/event/38411/>
 
 ハッシュタグ `#reactive_shinjuku`
 

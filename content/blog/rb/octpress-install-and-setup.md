@@ -61,5 +61,5 @@ markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかな
 参考文献。
 
 * <http://octopress.org/>
-* <http://tokkonopapa.github.com/blog/2011/12/30/octopress-on-github-and-bitbucket/>
+* <http://tokkonopapa.github.io/blog/2011/12/30/octopress-on-github-and-bitbucket/>
 * <http://blog.glidenote.com/blog/2011/11/07/install-octopress-on-github/>
