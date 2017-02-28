@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "devDependencies": {
     "@9renpoto/eslint-config": "^1.5.2",
-    "@9renpoto/tslint-config": "^2.0.0",
+    "@9renpoto/tslint-config": "^3.0.0",
     "@types/gulp": "^3.8.32",
     "@types/gulp-htmlmin": "^1.3.29",
     "@types/gulp-if": "^0.0.30",
