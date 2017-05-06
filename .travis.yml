@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+- stable
+- 6
+env:
+  matrix:
+  - CMD=test
+  - CMD=eslint
+matrix:
+  fast_finish: true
+  allow_failures:
+  - env: CMD=eslint
+script:
+- npm run $CMD
+notifications:
+  email: false
