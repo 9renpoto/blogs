@@ -1,14 +1,18 @@
+dist: trusty
 sudo: false
 language: node_js
 node_js:
 - stable
 - 6
+go: 1.8.x
 git:
   submodules: false
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
+install:
 - go get -u -v github.com/spf13/hugo
+- yarn
 env:
   matrix:
   - CMD=test
