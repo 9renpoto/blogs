@@ -1,10 +1,9 @@
-dist: trusty
 sudo: false
-language: node_js
-node_js:
-- stable
-- 6
-go: 1.8.x
+language: go
+node_js: stable
+go:
+- 1.8.x
+- master
 git:
   submodules: false
 before_install:
