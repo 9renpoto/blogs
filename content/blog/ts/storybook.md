@@ -14,7 +14,7 @@ categories:
 - TypeScriptのままでは動かせないので一度ビルドする（2016/09現在）
 - addon拡張で開発が便利になるエコシステムはある
 - 途中経過
-  - [9renpoto/style](https://github.com/9renpoto/react-components/tree/aab6f82ccb228a6b56a18223f6f66bf0f3bd78b1)
+  - [9renpoto/style](https://github.com/9renpoto/style/tree/aab6f82ccb228a6b56a18223f6f66bf0f3bd78b1)
 
 ## storybook
 

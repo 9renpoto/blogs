@@ -25,7 +25,7 @@ categories:
 ## Next
 
 - styleguideを書く
-  - <https://github.com/9renpoto/react-components>
+  - <https://github.com/9renpoto/style>
 - riotを使った簡単なものを作る
   - <https://github.com/9renpoto/profile>
 
