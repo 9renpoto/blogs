@@ -3,11 +3,12 @@ date: 2017-05-07T15:39:59+09:00
 title: prettier 事始め
 categories:
   - "javascript"
-  - "node"
 ---
 # prettier
 
 <https://github.com/prettier>
+
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 `eslint --fix` が最高だと思っていたがまた新たにformatterが出たので依存する。
 
