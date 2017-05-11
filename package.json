@@ -3,8 +3,8 @@
   "description": "setup my blog builder",
   "version": "0.0.0",
   "devDependencies": {
-    "@9renpoto/eslint-config": "9renpoto/eslint-config",
-    "@9renpoto/tslint-config": "9renpoto/tslint-config",
+    "@9renpoto/eslint-config": "latest",
+    "@9renpoto/tslint-config": "latest",
     "@types/gulp": "^4.0.2",
     "@types/gulp-htmlmin": "^1.3.30",
     "@types/gulp-if": "^0.0.31",
