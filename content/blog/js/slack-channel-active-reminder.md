@@ -38,3 +38,10 @@ job.start()
 
 中身は `@slack/client` を使っているだけ。
 便利なAPIが多いと助かる。
+
+## 追記
+
+<https://github.com/9renpoto/slack-channel-active-reminder/pull/9>
+
+`flow gen-flow-files` が良いものをだしてくれないため外す。
+早く1.0が待ち遠しい。
