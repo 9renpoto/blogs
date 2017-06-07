@@ -28,8 +28,6 @@ env:
   - CMD=eslint
 matrix:
   fast_finish: true
-  allow_failures:
-  - env: CMD=build:content
 script:
 - npm run $CMD
 notifications:
