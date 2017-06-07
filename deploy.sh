@@ -4,7 +4,6 @@ mkdir dist && cd dist
 git init
 git remote add origin git@github.com:9renpoto/9renpoto.github.io.git
 git pull origin master
-find . -not -path '*/\.*' | xargs rm
 cd ..
 npm run build || exit 1
 cd dist
