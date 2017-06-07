@@ -24,8 +24,7 @@ install:
 env:
   matrix:
   - CMD=test
-  - CMD=build:content
-  - CMD=eslint
+  - CMD=build
 matrix:
   fast_finish: true
 script:
