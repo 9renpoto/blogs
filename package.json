@@ -8,7 +8,6 @@
     "@types/gulp": "^4.0.4",
     "@types/gulp-htmlmin": "^1.3.30",
     "@types/gulp-if": "^0.0.31",
-    "@types/node": "^7.0.27",
     "eslint": "^3.19.0",
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^3.0.0",
@@ -36,8 +35,7 @@
     "textlint-rule-preset-ja-spacing": "^2.0.1",
     "textlint-rule-preset-jtf-style": "^2.2.5",
     "textlint-rule-sentence-length": "^1.1.0",
-    "ts-node": "^3.0.4",
-    "tslint": "^5.4.2",
+    "tslint": "^5.4.3",
     "typescript": "^2.3.4",
     "typescript-eslint-parser": "^3.0.0",
     "typescript-require": "^0.2.9-1"
@@ -46,14 +44,18 @@
   "private": true,
   "scripts": {
     "build": "npm-run-all clean build:content",
-    "build:content": "hugo -t delic --uglyURLs && gulp build",
-    "clean": "rimraf public dist",
-    "lint": "npm-run-all -p lint:*",
+    "build:content": "hugo -t delic && tsc && gulp build",
+    "clean": "npm-run-all -p clean:*",
+    "clean:dir": "rimraf public dist",
+    "clean:gulpfile": "rimraf gulpfile.js gulpfile.js.map",
+    "clean:js": "find gulp -name '*.js' -delete",
+    "clean:map": "find gulp -name '*.map' -delete",
     "eslint": "eslint . --ext=ts --cache",
+    "lint": "npm-run-all -p lint:*",
     "lint:ja": "textlint content --cache",
     "lint:md": "markdownlint content",
     "lint:ts": "tslint gulpfile.ts gulp/*.ts gulp/**/*.ts",
-    "start": "hugo server -t delic --uglyURLs -w",
-    "test": "npm-run-all -p lint build"
+    "start": "hugo server -t delic -w",
+    "test": "npm-run-all -p lint"
   }
 }
