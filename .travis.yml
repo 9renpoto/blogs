@@ -24,11 +24,9 @@ install:
 env:
   matrix:
   - CMD=test
-  - CMD=eslint
+  - CMD=build
 matrix:
   fast_finish: true
-  allow_failures:
-  - env: CMD=eslint
 script:
 - npm run $CMD
 notifications:
