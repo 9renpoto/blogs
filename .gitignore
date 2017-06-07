@@ -1,5 +1,3 @@
-*.js
-*.js.map
 .textlintcache
 dist/
 public/
