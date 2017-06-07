@@ -35,12 +35,13 @@
   "private": true,
   "scripts": {
     "build": "hugo -t delic && gulp build",
-    "prebuild": "mkdir -p dist && rm -rf public && find dist -not -path '*/.git/*' -empty -delete",
+    "clean": "mkdir -p dist && rm -rf public && find dist -not -path '*/.git/*' -empty -delete",
     "lint": "npm-run-all -p lint:*",
     "lint:es": "eslint . --cache",
     "lint:flow": "flow",
     "lint:ja": "textlint content --cache",
     "lint:md": "markdownlint content",
+    "prebuild": "npm run clean",
     "start": "hugo server -t delic -w",
     "test": "npm-run-all -p lint"
   }
