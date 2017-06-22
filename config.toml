@@ -2,6 +2,7 @@ baseurl = "https://9renpoto.github.io"
 languageCode = "ja-JP"
 title = ":-)"
 MetaDataFormat = "yaml"
+enableGitInfo = true
 
 [indexes]
   category = "categories"
