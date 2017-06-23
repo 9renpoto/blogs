@@ -19,7 +19,7 @@ categories:
 - 設定
   - <https://github.com/9renpoto/eslint-config/pull/25>
 - 困りごと
-  - <https://github.com/feross/eslint-config-standard> に依存している（**セミコロン除外**）と現状相性が悪い
+  - <https://github.com/standard/eslint-config-standard> に依存している（**セミコロン除外**）と現状相性が悪い
   - issueがあるようなので今後見直す
 
 ## prettier-eslint / prettier-eslint-cli
