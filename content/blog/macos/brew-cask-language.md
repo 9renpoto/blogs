@@ -1,7 +1,7 @@
 ---
 date: 2017-06-22T01:26:18+09:00
 draft: false
-title: brew caskにlanguageを指定するけらしいけれど
+title: brew caskにlanguageを指定するらしいけれど
 categories:
   - "macos"
   - "bug"
