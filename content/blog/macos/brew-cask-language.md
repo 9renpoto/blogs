@@ -31,3 +31,8 @@ Error: invalid option: --language=en
 
 - <https://rcmdnk.com/blog/2016/10/31/computer-mac-homebrew-firefox/>
 - <https://github.com/caskroom/homebrew-cask/blob/master/doc/cask_language_reference/stanzas/language.md#installation>
+
+### 追記1 [2017/06/25]
+
+- 修正リリースを待つ
+  - [homebrew-cask/issues/35448](https://github.com/caskroom/homebrew-cask/issues/35448#issuecomment-308112366)
