@@ -2,6 +2,7 @@
   "name": "@9renpoto/note",
   "description": "setup my blog builder",
   "version": "0.0.0",
+  "dependencies": {},
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "^0.3.0",
     "eslint": "^4.1.0",
@@ -12,6 +13,7 @@
     "markdownlint-cli": "^0.3.1",
     "npm-run-all": "^4.0.2",
     "require-dir": "^0.3.2",
+    "rimraf": "^2.6.1",
     "textlint": "^8.2.1",
     "textlint-rule-incremental-headers": "^0.2.0",
     "textlint-rule-ja-no-mixed-period": "^2.0.0",
