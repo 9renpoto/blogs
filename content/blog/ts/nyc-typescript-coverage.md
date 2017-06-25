@@ -16,7 +16,7 @@ categories:
 
 ## メリット
 
-- 前回：<http://9renpoto.github.io/blog/2016/08/20/typesript-coverage/>
+- 前回：<http://9renpoto.github.io/blog/2016/08/20/typescript-coverage/>
 - tscする一手間を省略して`ts-node`に任せるだけでよくなりました
 
 [![よつばと！ 全部見える 凄い](http://tiqav.com/5JR.th.jpg)](http://tiqav.com/5JR)
