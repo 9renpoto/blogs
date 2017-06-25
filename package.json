@@ -36,7 +36,7 @@
   "private": true,
   "scripts": {
     "build": "hugo -t delic && gulp build",
-    "clean": "mkdir -p dist && rm -rf public && find dist -not -path '*/.git/*' -empty -delete",
+    "clean": "mkdir -p dist && rm -rf public && find dist -not -iwholename '*.git/*' | grep -v dist/.git | xargs rm",
     "htmlvalidate": "node validate.js",
     "lint": "npm-run-all -p lint:*",
     "lint:es": "eslint . --cache",
