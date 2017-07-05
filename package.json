@@ -5,7 +5,7 @@
   "dependencies": {},
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "^0.3.0",
-    "eslint": "^4.1.0",
+    "eslint": "^4.1.1",
     "flow-bin": "^0.49.1",
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^3.0.0",
@@ -32,7 +32,7 @@
     "textlint-rule-preset-ja-spacing": "^2.0.1",
     "textlint-rule-preset-jtf-style": "^2.2.5",
     "textlint-rule-sentence-length": "^1.1.0",
-    "vnu-jar": "^17.3.0"
+    "vnu-jar": "^17.7.0"
   },
   "main": "n/a",
   "private": true,
