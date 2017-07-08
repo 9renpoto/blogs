@@ -21,6 +21,8 @@ categories:
 - 実はbashだったりzshだったりのsyntaxに依存しているところを細々と直していくことは必要
   - tmux,keychain,PATH
 
+![image](https://qiita-image-store.s3.amazonaws.com/0/4943/5cd6ec85-0654-04eb-03c1-f792115e6a72.png)
+
 ## Refs
 
 - <http://blog.muuny-blue.info/7476533956dd3568c1d787c5d33a547f.html>
