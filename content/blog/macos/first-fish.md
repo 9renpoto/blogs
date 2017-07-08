@@ -1,7 +1,10 @@
 ---
-title: "First Fish"
+title: "fish shell 入門"
 date: 2017-07-08T21:07:46+09:00
-draft: true
+draft: false
+categories:
+  - "macos"
+  - "fish"
 ---
 # TL;DR
 
@@ -23,3 +26,7 @@ draft: true
 - <http://blog.muuny-blue.info/7476533956dd3568c1d787c5d33a547f.html>
 - <https://blog.odoruinu.net/2017/02/24/changed-my-shell-from-zsh-to-fish/>
 - <https://github.com/fisherman/fisherman>
+
+## 調べてないこと
+
+- hyper termが起動しなくなった
