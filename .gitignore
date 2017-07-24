@@ -1,9 +1,7 @@
+.next/
 .textlintcache
-dist/
-public/
-tmp/
 
-### https://raw.github.com/github/gitignore/ed91cc6c01cb044505585b8aa77d8e017bffece7/Node.gitignore
+### https://raw.github.com/github/gitignore/be962308a6efb6d27446d13ee05b74948e616a01/Node.gitignore
 
 # Logs
 logs
@@ -63,4 +61,3 @@ typings/
 
 # dotenv environment variables file
 .env
-/.gtm/

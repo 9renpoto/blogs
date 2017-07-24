@@ -1,5 +1,9 @@
 [ignore]
-<PROJECT_ROOT>/themes/delic
+<PROJECT_ROOT>/node_modules/@9renpoto/style/stories/.*
+<PROJECT_ROOT>/node_modules/@9renpoto/style/test/.*
+<PROJECT_ROOT>/node_modules/babel-plugin-transform-react-remove-prop-types/src/.*
+<PROJECT_ROOT>/node_modules/conventional-changelog-core/test/fixtures/.*
+<PROJECT_ROOT>/node_modules/styled-components/src/.*
 
 [include]
 
