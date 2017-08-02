@@ -2,16 +2,20 @@
   "name": "@9renpoto/note",
   "description": "setup my blog builder",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "@9renpoto/style": "github:9renpoto/style",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "^0.4.0",
-    "eslint": "^4.1.1",
+    "eslint": "^4.3.0",
     "flow-bin": "^0.51.0",
-    "gulp": "^3.9.1",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-if": "^2.0.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
     "markdownlint-cli": "^0.3.1",
     "npm-run-all": "^4.0.2",
+    "prettier-eslint-cli": "^4.1.1",
     "require-dir": "^0.3.2",
     "rimraf": "^2.6.1",
     "textlint": "^8.2.1",
@@ -37,16 +41,13 @@
   "main": "n/a",
   "private": true,
   "scripts": {
-    "build": "hugo -t delic && gulp build",
-    "clean": "rimraf dist public",
     "htmlvalidate": "node validate.js",
-    "lint": "npm-run-all -p lint:*",
+    "lint": "run-p lint:*",
     "lint:es": "eslint . --cache",
     "lint:flow": "flow",
     "lint:ja": "textlint content --cache",
     "lint:md": "markdownlint content",
-    "prehtmlvalidate": "hugo -t delic",
     "start": "hugo server -t delic -w",
-    "test": "npm-run-all -p lint"
+    "test": "run-p lint"
   }
 }
