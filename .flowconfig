@@ -1,5 +1,7 @@
 [ignore]
-<PROJECT_ROOT>/themes/delic
+<PROJECT_ROOT>/node_modules/@9renpoto/style/stories/.*
+<PROJECT_ROOT>/node_modules/@9renpoto/style/src/.*
+<PROJECT_ROOT>/node_modules/@9renpoto/style/test/.*
 
 [include]
 
