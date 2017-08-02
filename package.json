@@ -11,6 +11,9 @@
     "@9renpoto/eslint-config-flowtype": "^0.4.0",
     "eslint": "^4.3.0",
     "flow-bin": "^0.51.0",
+    "gatsby": "^1.0.0",
+    "gatsby-link": "^1.0.0",
+    "gatsby-source-filesystem": "^1.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.2",
     "markdownlint-cli": "^0.3.1",
@@ -38,16 +41,29 @@
     "textlint-rule-sentence-length": "^1.1.0",
     "vnu-jar": "^17.7.0"
   },
+  "lint-staged": {
+    "*.md": [
+      "markdownlint",
+      "textlint --cache"
+    ],
+    "*.{js,jsx}": [
+      "prettier-eslint --write",
+      "eslint --cache",
+      "git add"
+    ]
+  },
   "main": "n/a",
   "private": true,
   "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "htmlvalidate": "node validate.js",
     "lint": "run-p lint:*",
     "lint:es": "eslint . --cache",
     "lint:flow": "flow",
     "lint:ja": "textlint content --cache",
     "lint:md": "markdownlint content",
-    "start": "hugo server -t delic -w",
+    "start": "gatsby develop",
     "test": "run-p lint"
   }
 }
