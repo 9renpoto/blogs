@@ -6,7 +6,7 @@
   "devDependencies": {
     "@9renpoto/eslint-config-flowtype": "^0.4.0",
     "eslint": "^4.1.1",
-    "flow-bin": "^0.52.0",
+    "flow-bin": "^0.53.0",
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-if": "^2.0.2",
