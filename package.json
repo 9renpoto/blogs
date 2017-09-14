@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
-    "@9renpoto/eslint-config-flowtype": "^0.4.0",
+    "@9renpoto/eslint-config-flowtype": "^0.6.0",
     "eslint": "^4.1.1",
     "flow-bin": "^0.52.0",
     "gulp": "^3.9.1",
